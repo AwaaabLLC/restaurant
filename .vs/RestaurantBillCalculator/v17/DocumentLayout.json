@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurantbillcalculator (2)\\restaurantbillcalculator\\wpfpresentationlayer\\admin\\adduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|solutionrelative:wpfpresentationlayer\\admin\\adduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurantbillcalculator (2)\\restaurantbillcalculator\\wpfpresentationlayer\\admin\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|solutionrelative:wpfpresentationlayer\\admin\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurantbillcalculator (2)\\restaurantbillcalculator\\wpfpresentationlayer\\admin\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|solutionrelative:wpfpresentationlayer\\admin\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurantbillcalculator (2)\\restaurantbillcalculator\\wpfpresentationlayer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|solutionrelative:wpfpresentationlayer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurantbillcalculator (2)\\restaurantbillcalculator\\wpfpresentationlayer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|solutionrelative:wpfpresentationlayer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.xaml.cs",
+              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\Admin\\main.xaml.cs",
+              "RelativeDocumentMoniker": "WpfPresentationLayer\\Admin\\main.xaml.cs",
+              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\Admin\\main.xaml.cs",
+              "RelativeToolTip": "WpfPresentationLayer\\Admin\\main.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T01:50:18.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "addUser.xaml",
+              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\Admin\\addUser.xaml",
+              "RelativeDocumentMoniker": "WpfPresentationLayer\\Admin\\addUser.xaml",
+              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\Admin\\addUser.xaml*",
+              "RelativeToolTip": "WpfPresentationLayer\\Admin\\addUser.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T01:49:40.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.xaml",
+              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\Admin\\main.xaml",
+              "RelativeDocumentMoniker": "WpfPresentationLayer\\Admin\\main.xaml",
+              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\Admin\\main.xaml",
+              "RelativeToolTip": "WpfPresentationLayer\\Admin\\main.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-03T00:50:50.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfPresentationLayer\\MainWindow.xaml",
+              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\MainWindow.xaml",
+              "RelativeToolTip": "WpfPresentationLayer\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-02T20:59:22.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfPresentationLayer\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfPresentationLayer\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAxwCgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T20:59:21.99Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

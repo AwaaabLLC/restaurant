@@ -1,0 +1,51 @@
+﻿<Window x:Class="WpfPresentationLayer.Admin.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPresentationLayer.Admin"
+        mc:Ignorable="d"
+        Title="main" Height="450" Width="800">
+
+	<Grid Grid.Row="2" x:Name="gridAdmin" >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="30"/>
+			<RowDefinition/>
+			<RowDefinition Height="30"/>
+		</Grid.RowDefinitions>
+		<Grid Grid.Row="0">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="100"/>
+				<ColumnDefinition Width="100"/>
+				<ColumnDefinition Width="100"/>
+				<ColumnDefinition Width="100"/>
+				<ColumnDefinition Width="100"/>
+				<ColumnDefinition Width="100"/>
+				<ColumnDefinition Width="100"/>
+				<ColumnDefinition Width="100"/>
+			</Grid.ColumnDefinitions>
+			<Grid Grid.Column="0"></Grid>
+			<Grid Grid.Column="1">
+				<Button x:Name="btnAddUser" Content="Add User" Width="90" Click="btnAddUser_Click"/>
+			</Grid>
+			<Grid Grid.Column="2">
+				<Button x:Name="btnDeactiveUser" Content="Deactive User" Width="90"/>
+			</Grid>
+			<Grid Grid.Column="3">
+				<Button x:Name="btnViewAllUsers" Content="View All User" Width="90"/>
+			</Grid>
+			<Grid Grid.Column="4"></Grid>
+			<Grid Grid.Column="5"></Grid>
+			<Grid Grid.Column="6"></Grid>
+			<Grid Grid.Column="7"></Grid>
+		</Grid>
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="149*"/>
+				<ColumnDefinition Width="651*"/>
+			</Grid.ColumnDefinitions>
+			<Frame x:Name="frmAdminMain" Grid.ColumnSpan="2"></Frame>
+		</Grid>
+		<Grid Grid.Row="2"></Grid>
+	</Grid>
+</Window>

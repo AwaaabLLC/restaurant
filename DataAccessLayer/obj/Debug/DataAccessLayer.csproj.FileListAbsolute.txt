@@ -1,0 +1,18 @@
+C:\Users\moals\source\repos\RestaurantBillCalculator\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\moals\source\repos\RestaurantBillCalculator\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\moals\source\repos\RestaurantBillCalculator\DataAccessLayer\bin\Debug\DataObjectLayer.dll
+C:\Users\moals\source\repos\RestaurantBillCalculator\DataAccessLayer\bin\Debug\DataObjectLayer.pdb
+C:\Users\moals\source\repos\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\moals\source\repos\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\moals\source\repos\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAcce.E67BD773.Up2Date
+C:\Users\moals\source\repos\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\moals\source\repos\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\bin\Debug\DataObjectLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\bin\Debug\DataObjectLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAcce.E67BD773.Up2Date
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

@@ -1,0 +1,36 @@
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\bin\Debug\PresentationLayer.exe
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\bin\Debug\PresentationLayer.pdb
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\bin\Debug\DataObjectLayer.dll
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\bin\Debug\LogicLayer.dll
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\bin\Debug\DataObjectLayer.pdb
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\bin\Debug\LogicLayer.pdb
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.frmLogin.resources
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\obj\Debug\Presenta.9C561136.Up2Date
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.exe
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.pdb
+C:\Users\moals\source\repos\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.frmOrder.resources
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\bin\Debug\PresentationLayer.exe
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\bin\Debug\PresentationLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\bin\Debug\DataObjectLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\bin\Debug\LogicLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\bin\Debug\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\bin\Debug\DataObjectLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\bin\Debug\LogicLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\bin\Debug\DataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.frmLogin.resources
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.frmOrder.resources
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\Presenta.9C561136.Up2Date
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.exe
+D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.pdb

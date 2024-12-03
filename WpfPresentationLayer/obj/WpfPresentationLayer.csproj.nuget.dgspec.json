@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\WpfPresentationLayer.csproj": {}
+  },
+  "projects": {
+    "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataAccessLayer\\DataAccessLayer.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataObjectLayer\\DataObjectLayer.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataObjectLayer\\DataObjectLayer.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataObjectLayer\\DataObjectLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataObjectLayer\\DataObjectLayer.csproj",
+        "projectName": "DataObjectLayer",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataObjectLayer\\DataObjectLayer.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\LogicLayer\\LogicLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\LogicLayer\\LogicLayer.csproj",
+        "projectName": "LogicLayer",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\LogicLayer\\LogicLayer.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataObjectLayer\\DataObjectLayer.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\DataObjectLayer\\DataObjectLayer.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\WpfPresentationLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\WpfPresentationLayer.csproj",
+        "projectName": "WpfPresentationLayer",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\WpfPresentationLayer.csproj",
+        "packagesPath": "C:\\Users\\Samar\\.nuget\\packages\\",
+        "outputPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\WpfPresentationLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Samar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\LogicLayer\\LogicLayer.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\RestaurantBillCalculator (2)\\RestaurantBillCalculator\\LogicLayer\\LogicLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
