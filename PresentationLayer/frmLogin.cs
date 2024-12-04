@@ -1,5 +1,4 @@
-﻿using LogicLayer;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//u
 
 namespace PresentationLayer
 {
     public partial class frmLogin : Form
     {
-        private UserManager userManager = new UserManager();
+        //private UserManager userManager = new UserManager();
         private int userId;
         public frmLogin()
         {
@@ -56,7 +56,8 @@ namespace PresentationLayer
                 txtPassword.Focus();
                 return;
             }
-            userId = userManager.ValidateUser(txtUserName.Text, txtPassword.Text);
+            userId = 1; 
+                //userManager.ValidateUser(txtUserName.Text, txtPassword.Text);
             if (userId != 0)
             {
                 this.Hide();

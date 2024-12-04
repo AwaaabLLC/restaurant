@@ -16,3 +16,12 @@ D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalcul
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAcce.E67BD773.Up2Date
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\bin\Debug\DataObjectLayer.dll
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\bin\Debug\DataObjectLayer.pdb
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\obj\Debug\DataAcce.E67BD773.Up2Date
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

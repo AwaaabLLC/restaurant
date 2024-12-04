@@ -10,3 +10,9 @@ D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalcul
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataObjectLayer\obj\Debug\DataObjectLayer.csproj.CoreCompileInputs.cache
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataObjectLayer\obj\Debug\DataObjectLayer.dll
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\DataObjectLayer\obj\Debug\DataObjectLayer.pdb
+D:\Awaab\Awaaab\restaurant\DataObjectLayer\bin\Debug\DataObjectLayer.dll
+D:\Awaab\Awaaab\restaurant\DataObjectLayer\bin\Debug\DataObjectLayer.pdb
+D:\Awaab\Awaaab\restaurant\DataObjectLayer\obj\Debug\DataObjectLayer.csproj.AssemblyReference.cache
+D:\Awaab\Awaaab\restaurant\DataObjectLayer\obj\Debug\DataObjectLayer.csproj.CoreCompileInputs.cache
+D:\Awaab\Awaaab\restaurant\DataObjectLayer\obj\Debug\DataObjectLayer.dll
+D:\Awaab\Awaaab\restaurant\DataObjectLayer\obj\Debug\DataObjectLayer.pdb
