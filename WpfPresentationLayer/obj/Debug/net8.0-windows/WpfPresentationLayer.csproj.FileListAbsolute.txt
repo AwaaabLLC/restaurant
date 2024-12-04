@@ -30,3 +30,38 @@ D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalcul
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\main.baml
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.g.cs
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.exe
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.deps.json
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.runtimeconfig.json
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.dll
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.pdb
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\DataAccessLayer.dll
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\DataObjectLayer.dll
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\ILogicLayer.dll
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\DataObjectLayer.pdb
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\ILogicLayer.pdb
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\DataAccessLayer.pdb
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.csproj.AssemblyReference.cache
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\main.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\App.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer_MarkupCompile.cache
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer_MarkupCompile.lref
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\main.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.g.resources
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.AssemblyInfoInputs.cache
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.AssemblyInfo.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.csproj.CoreCompileInputs.cache
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.sourcelink.json
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPrese.5A559C1B.Up2Date
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.dll
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\refint\WpfPresentationLayer.dll
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.pdb
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.genruntimeconfig.cache
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\ref\WpfPresentationLayer.dll
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\LogicLayer.dll
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\LogicLayer.pdb

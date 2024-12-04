@@ -9,119 +9,139 @@
       Title="addUser">
 
     <Grid>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="60"/>
-			<RowDefinition/>
-			<RowDefinition Height="60"/>
-		</Grid.RowDefinitions>
-		<Grid Grid.Row="0"></Grid>
-		<Grid Grid.Row="1">
-			<Grid.ColumnDefinitions>
-				<ColumnDefinition Width="220"/>
-				<ColumnDefinition/>
-				<ColumnDefinition Width="220"/>
-			</Grid.ColumnDefinitions>
-			<Grid Grid.Column="0"></Grid>
-			<Grid Grid.Column="1">
-				<Grid.RowDefinitions>
-					<RowDefinition/>
-					<RowDefinition/>
-					<RowDefinition/>
-					<RowDefinition/>
-					<RowDefinition/>
-					<RowDefinition/>
-					<RowDefinition/>
-					<RowDefinition/>
-					<RowDefinition/>
-					<RowDefinition/>
-				</Grid.RowDefinitions>
-				<Grid Grid.Column="0">
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="100"/>
-						<ColumnDefinition/>
-					</Grid.ColumnDefinitions>
-					<Grid Grid.Column="0">
-						<Label x:Name="lblFirstName" Content="First Name"/>
-					</Grid>
-					<Grid Grid.Column="1">
-						<TextBox x:Name="txtFirstName" />
-					</Grid>
-				</Grid>
-				<Grid Grid.Column="1">
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="100"/>
-						<ColumnDefinition/>
-					</Grid.ColumnDefinitions>
-					<Grid Grid.Column="0"></Grid>
-					<Grid Grid.Column="1"></Grid>
-				</Grid>
-				<Grid Grid.Column="2">
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="100"/>
-						<ColumnDefinition/>
-					</Grid.ColumnDefinitions>
-					<Grid Grid.Column="0"></Grid>
-					<Grid Grid.Column="1"></Grid>
-				</Grid>
-				<Grid Grid.Column="3">
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="100"/>
-						<ColumnDefinition/>
-					</Grid.ColumnDefinitions>
-					<Grid Grid.Column="0"></Grid>
-					<Grid Grid.Column="1"></Grid>
-				</Grid>
-				<Grid Grid.Column="4">
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="100"/>
-						<ColumnDefinition/>
-					</Grid.ColumnDefinitions>
-					<Grid Grid.Column="0"></Grid>
-					<Grid Grid.Column="1"></Grid>
-				</Grid>
-				<Grid Grid.Column="5">
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="100"/>
-						<ColumnDefinition/>
-					</Grid.ColumnDefinitions>
-					<Grid Grid.Column="0"></Grid>
-					<Grid Grid.Column="1"></Grid>
-				</Grid>
-				<Grid Grid.Column="6">
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="100"/>
-						<ColumnDefinition/>
-					</Grid.ColumnDefinitions>
-					<Grid Grid.Column="0"></Grid>
-					<Grid Grid.Column="1"></Grid>
-				</Grid>
-				<Grid Grid.Column="7">
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="100"/>
-						<ColumnDefinition/>
-					</Grid.ColumnDefinitions>
-					<Grid Grid.Column="0"></Grid>
-					<Grid Grid.Column="1"></Grid>
-				</Grid>
-				<Grid Grid.Column="8">
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="100"/>
-						<ColumnDefinition/>
-					</Grid.ColumnDefinitions>
-					<Grid Grid.Column="0"></Grid>
-					<Grid Grid.Column="1"></Grid>
-				</Grid>
-				<Grid Grid.Column="9">
-					<Grid.ColumnDefinitions>
-						<ColumnDefinition Width="100"/>
-						<ColumnDefinition/>
-					</Grid.ColumnDefinitions>
-					<Grid Grid.Column="0"></Grid>
-					<Grid Grid.Column="1"></Grid>
-				</Grid>
-			</Grid>
-			<Grid Grid.Column="2"></Grid>
-		</Grid>
-		<Grid Grid.Row="2"></Grid>
-	</Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0"></Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="220"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="220"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0"></Grid>
+            <Grid Grid.Column="1" Background="#FFEDAEAE" OpacityMask="#FF0F0101">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0"></Grid>
+                    <Grid Grid.Column="1"></Grid>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblFirstName" Content="First Name"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtFirstName" Width="200" Height="20" HorizontalAlignment="Left"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblLastName" Content="Last Name"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtLastName" Width="200" Height="20" HorizontalAlignment="Left"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblEmail" Content="Email"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtEmail" Width="200" Height="20" HorizontalAlignment="Left"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblCellPhone" Content="Cell Phone"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtCellPhone" Width="200" Height="20" HorizontalAlignment="Left"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblPassword" Content="Password"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <PasswordBox x:Name="txtPassword" Width="200" Height="20" HorizontalAlignment="Left"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblConfirmPassword" Content="Confirm Password" BorderBrush="Black" Background="{x:Null}"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <PasswordBox x:Name="txtConfirmPassword" Width="200" Height="20" HorizontalAlignment="Left"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="7">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="100"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0"></Grid>
+                    <Grid Grid.Column="1">
+                        <Button x:Name="btnSubmit" Content="Submit" BorderBrush="#FF170202" Background="{x:Null}" Click="btnSubmit_Click"/>
+                    </Grid>
+                    <Grid Grid.Column="2"></Grid>
+                </Grid>
+                <Grid Grid.Row="8">
+                    <Label x:Name="lblSpan" Content="test" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Width="300"  Foreground="Red" />
+                </Grid>
+               
+                <Grid Grid.Row="9">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0"></Grid>
+                    <Grid Grid.Column="1"></Grid>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="2"></Grid>
+        </Grid>
+        <Grid Grid.Row="2"></Grid>
+    </Grid>
 </Page>
