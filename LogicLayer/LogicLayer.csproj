@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
     <ProjectReference Include="..\DataObjectLayer\DataObjectLayer.csproj" />
+    <ProjectReference Include="..\IDataAcessLayer\IDataAcessLayer.csproj" />
     <ProjectReference Include="..\ILogicLayer\ILogicLayer.csproj" />
   </ItemGroup>
 

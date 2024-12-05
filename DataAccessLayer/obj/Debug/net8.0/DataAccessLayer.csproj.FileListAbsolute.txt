@@ -1,0 +1,6 @@
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Awaab\Awaaab\restaurant\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json

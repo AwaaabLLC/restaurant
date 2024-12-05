@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "DataAccessLayer/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "DataObjectLayer": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DataAccessLayer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataAccessLayer.dll": {}
-        }
-      },
       "DataObjectLayer/1.0.0": {
         "type": "project",
         "compile": {
@@ -26,11 +14,6 @@
     }
   },
   "libraries": {
-    "DataAccessLayer/1.0.0": {
-      "type": "project",
-      "path": "../DataAccessLayer/DataAccessLayer.csproj",
-      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
-    },
     "DataObjectLayer/1.0.0": {
       "type": "project",
       "path": "../DataObjectLayer/DataObjectLayer.csproj",
@@ -39,7 +22,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DataAccessLayer >= 1.0.0",
       "DataObjectLayer >= 1.0.0"
     ]
   },
@@ -75,9 +57,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\DataAccessLayer.csproj"
-            },
             "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj": {
               "projectPath": "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj"
             }

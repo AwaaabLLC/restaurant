@@ -4,26 +4,6 @@
     "D:\\Awaab\\Awaaab\\restaurant\\ILogicLayer\\ILogicLayer.csproj": {}
   },
   "projects": {
-    "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\DataAccessLayer.csproj": {
-      "restore": {
-        "projectUniqueName": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\DataAccessLayer.csproj",
-        "projectName": "DataAccessLayer",
-        "projectPath": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\DataAccessLayer.csproj",
-        "UsingMicrosoftNETSdk": false,
-        "frameworks": {
-          "net472": {
-            "projectReferences": {
-              "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj": {
-                "projectPath": "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
-      }
-    },
     "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj": {
       "restore": {
         "projectUniqueName": "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj",
@@ -68,9 +48,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\DataAccessLayer.csproj"
-              },
               "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj": {
                 "projectPath": "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj"
               }

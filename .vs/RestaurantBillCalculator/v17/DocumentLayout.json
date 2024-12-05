@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Awaab\\Awaaab\\restaurant\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|d:\\awaab\\awaaab\\restaurant\\dataaccesslayer\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\DBConnection.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DBConnection.cs",
+              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\DBConnection.cs",
+              "RelativeToolTip": "DataAccessLayer\\DBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:11:06.942Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,9 +1,7 @@
 D:\Awaab\Awaaab\restaurant\ILogicLayer\bin\Debug\net8.0\ILogicLayer.deps.json
 D:\Awaab\Awaaab\restaurant\ILogicLayer\bin\Debug\net8.0\ILogicLayer.dll
 D:\Awaab\Awaaab\restaurant\ILogicLayer\bin\Debug\net8.0\ILogicLayer.pdb
-D:\Awaab\Awaaab\restaurant\ILogicLayer\bin\Debug\net8.0\DataAccessLayer.dll
 D:\Awaab\Awaaab\restaurant\ILogicLayer\bin\Debug\net8.0\DataObjectLayer.dll
-D:\Awaab\Awaaab\restaurant\ILogicLayer\bin\Debug\net8.0\DataAccessLayer.pdb
 D:\Awaab\Awaaab\restaurant\ILogicLayer\bin\Debug\net8.0\DataObjectLayer.pdb
 D:\Awaab\Awaaab\restaurant\ILogicLayer\obj\Debug\net8.0\ILogicLayer.csproj.AssemblyReference.cache
 D:\Awaab\Awaaab\restaurant\ILogicLayer\obj\Debug\net8.0\ILogicLayer.GeneratedMSBuildEditorConfig.editorconfig
