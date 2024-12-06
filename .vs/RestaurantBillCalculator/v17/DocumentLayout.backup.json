@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\Awaab\\Awaaab\\restaurant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|d:\\awaab\\awaaab\\restaurant\\dataaccesslayer\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|d:\\awaab\\awaaab\\restaurant\\dataaccesslayer\\usersaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\usersaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|d:\\awaab\\awaaab\\restaurant\\wpfpresentationlayer\\admin\\updateemployeerole.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|solutionrelative:wpfpresentationlayer\\admin\\updateemployeerole.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A05986E7-2D68-4F17-AC10-CBA8E919314D}|LogicLayer\\LogicLayer.csproj|d:\\awaab\\awaaab\\restaurant\\logiclayer\\usersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A05986E7-2D68-4F17-AC10-CBA8E919314D}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\usersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|d:\\awaab\\awaaab\\restaurant\\wpfpresentationlayer\\admin\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|solutionrelative:wpfpresentationlayer\\admin\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|d:\\awaab\\awaaab\\restaurant\\wpfpresentationlayer\\admin\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D388D06C-04BF-4E5F-85CD-D677B0D4F030}|WpfPresentationLayer\\WpfPresentationLayer.csproj|solutionrelative:wpfpresentationlayer\\admin\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +38,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\DBConnection.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\DBConnection.cs",
-              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\DBConnection.cs*",
-              "RelativeToolTip": "DataAccessLayer\\DBConnection.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "main.xaml.cs",
+              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\WpfPresentationLayer\\Admin\\main.xaml.cs",
+              "RelativeDocumentMoniker": "WpfPresentationLayer\\Admin\\main.xaml.cs",
+              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\WpfPresentationLayer\\Admin\\main.xaml.cs",
+              "RelativeToolTip": "WpfPresentationLayer\\Admin\\main.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T02:11:06.942Z",
+              "WhenOpened": "2024-12-06T03:09:59.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersAccessor.cs",
+              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\UsersAccessor.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\UsersAccessor.cs",
+              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\UsersAccessor.cs",
+              "RelativeToolTip": "DataAccessLayer\\UsersAccessor.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAEwH8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:04:49.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersManager.cs",
+              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\LogicLayer\\UsersManager.cs",
+              "RelativeDocumentMoniker": "LogicLayer\\UsersManager.cs",
+              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\LogicLayer\\UsersManager.cs",
+              "RelativeToolTip": "LogicLayer\\UsersManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T01:58:02.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "updateEmployeeRole.xaml.cs",
+              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\WpfPresentationLayer\\Admin\\updateEmployeeRole.xaml.cs",
+              "RelativeDocumentMoniker": "WpfPresentationLayer\\Admin\\updateEmployeeRole.xaml.cs",
+              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\WpfPresentationLayer\\Admin\\updateEmployeeRole.xaml.cs",
+              "RelativeToolTip": "WpfPresentationLayer\\Admin\\updateEmployeeRole.xaml.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAawGcAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T01:35:39.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.xaml",
+              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\WpfPresentationLayer\\Admin\\main.xaml",
+              "RelativeDocumentMoniker": "WpfPresentationLayer\\Admin\\main.xaml",
+              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\WpfPresentationLayer\\Admin\\main.xaml",
+              "RelativeToolTip": "WpfPresentationLayer\\Admin\\main.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T00:59:57.519Z",
               "EditorCaption": ""
             }
           ]
