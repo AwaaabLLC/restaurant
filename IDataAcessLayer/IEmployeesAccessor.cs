@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace IDataAcessLayer
 {
-    public interface IUserAccessor
+    public interface IEmployeesAccessor
     {
-       bool inserNewUser(User user);
+       bool inserNewUser(Employee user);
+        List<Employee> selectAllEmployees();
+        bool updateEmployee(Employee employee);
     }
 }
