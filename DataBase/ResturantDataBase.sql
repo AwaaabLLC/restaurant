@@ -32,14 +32,24 @@ CREATE TABLE [dbo].[Employee](
 [LastName] [nvarchar] (100) NOT NULL,
 [PhoneNumber] [nvarchar] (11) NOT NULL,
 [Email] [nvarchar] (255) ,
-[PasswordHash] [nvarchar] (100) NOT NULL DEFAULT 
-'5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8',
-[Active] [bit] NOT NULL DEFAULT 1,
 CONSTRAINT [pk_EmployeeID] PRIMARY KEY ([EmployeeID] ASC), 
 CONSTRAINT [ak_Email] UNIQUE ([Email] ASC)
 )
 GO
-
+print '' print '*** Creating the Users table'
+GO
+CREATE TABLE [dbo].[Users](
+	[EmployeeID] [int] NOT NULL,
+	[Email] [nvarchar] (255) ,
+	[PasswordHash] [nvarchar] (100) NOT NULL DEFAULT 
+'5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8',
+	[Active] [bit] NOT NULL DEFAULT 1,
+	CONSTRAINT [pk_EmployeeID_Password] PRIMARY KEY ([EmployeeID] ASC), 
+	CONSTRAINT [ak_Email_employee] UNIQUE ([Email] ASC),
+	CONSTRAINT [fk_EmployeeID_Password] FOREIGN KEY([EmployeeID])
+	REFERENCES [dbo].[Employee]([EmployeeID])
+)
+GO
 print '' print'*** Creating EmployeeRole Table'
 GO
 CREATE TABLE [dbo].[EmployeeRole](
@@ -87,6 +97,17 @@ VALUES
 ('Manager','Manager','Manager','Manager')
 GO
 
+print '' print '*** Inserting users records'
+GO
+INSERT INTO [dbo].[users]
+([EmployeeID], [Email])
+VALUES
+(100000,'Admin'),
+(100001,'Employee'),
+(100002,'leader'),
+(100003,'Manager')
+GO
+
 print '' print '*** Inserting EmployeeRole records'
 GO
 INSERT INTO [dbo].[EmployeeRole]
@@ -103,14 +124,14 @@ GO
 Create PROCEDURE [dbo].[sp_add_new_employee]
 ( 
   @FirstName [nvarchar](50),@LastName [nvarchar](100),@PhoneNumber [nvarchar](11)
-  ,@Email [nvarchar](255),@password [nvarchar] (100),@role [nvarchar] (50)
+  ,@Email [nvarchar](255),@role [nvarchar] (50)
 )
 AS
 BEGIN
 	INSERT INTO [dbo].[Employee]
-           ([FirstName],[LastName],[PhoneNumber],[Email],[PasswordHash])
+           ([FirstName],[LastName],[PhoneNumber],[Email])
      	VALUES
-           (@FirstName, @LastName, @PhoneNumber, @Email, @password);
+           (@FirstName, @LastName, @PhoneNumber, @Email);
 	DECLARE @employeeId AS INT
 	SET @employeeId = (SELECT EmployeeID FROM employee WHERE FirstName = @Firstname
 				AND LastName = @Lastname AND Email = @Email);
@@ -120,6 +141,91 @@ BEGIN
            (@employeeId, @role);
 	return @@ROWCOUNT
 END
+GO
+
+print '' print '*** Creating sp_select_all_employees'
+GO
+Create PROCEDURE [dbo].[sp_select_all_employees]
+AS
+	BEGIN
+		SELECT EmployeeID, FirstName, LastName, PhoneNumber, Email FROM employee;
+	END
+GO
+
+GO
+
+print '' print '*** Creating sp_update_employee'
+GO
+Create PROCEDURE [dbo].[sp_update_employee](
+@EmployeeId [int], @FirstName [nvarchar] (50), @LastName [nvarchar] (100), @PhoneNumber [nvarchar] (11), @Email [nvarchar] (255)
+)
+AS
+	BEGIN
+		UPDATE employee
+		SET	FirstName = @FirstName,
+			LastName = @LastName,
+			PhoneNumber = @PhoneNumber,
+			Email = @Email
+		WHERE	EmployeeId = @EmployeeId	
+	END
+GO
+
+print '' print '*** Creating sp_select_all_users'
+GO
+Create PROCEDURE [dbo].[sp_select_all_users]
+AS
+	BEGIN
+		SELECT EmployeeID, Email, PasswordHash, Active FROM users;	
+	END
+GO
+
+print '' print '*** Creating sp_active_deactive_user'
+GO
+Create PROCEDURE [dbo].[sp_active_deactive_user](
+	@EmployeeId [int], @Email [nvarchar] (255), @Password [nvarchar] (100), @Active [bit]
+)
+AS
+	BEGIN
+		UPDATE users
+		SET	Email = @Email,
+			PasswordHash = @Password,
+			Active = @Active
+		WHERE	EmployeeId = @EmployeeId	
+	END
+GO
+
+print '' print '*** Creating sp_insert_users'
+GO
+Create PROCEDURE [dbo].[sp_insert_users]
+(@EmployeeId [int], @Email [nvarchar] (255))
+AS
+	BEGIN
+		INSERT INTO [dbo].[users]([EmployeeId],[Email])
+     		VALUES    (@EmployeeId, @Email);	
+	END
+GO
+
+print '' print '*** Creating sp_select_all_roles'
+GO
+Create PROCEDURE [dbo].[sp_select_all_roles]
+AS
+	BEGIN
+		SELECT RoleID FROM Role;	
+	END
+GO
+
+print '' print '*** Creating sp_update_employee_role'
+GO
+Create PROCEDURE [dbo].[sp_update_employee_role]
+(@EmployeeId [int], @RoleId [nvarchar](50))
+AS
+	BEGIN
+		UPDATE EmployeeRole
+		SET	RoleID = @RoleId
+		WHERE	EmployeeId = @EmployeeId	
+	END
+GO
+
 
 
 
