@@ -32,7 +32,7 @@ namespace PresentationLayer
             }
             if (txtUserName.TextLength < 3)
             {
-                lblError.Text = "Invalid UserName";
+                lblError.Text = "Invalid Active";
                 txtUserName.Clear();
                 txtUserName.Focus();
                 txtPassword.Clear();
@@ -67,7 +67,7 @@ namespace PresentationLayer
             }
             else
             {
-                lblError.Text = "UserName Or Password is incorect ";
+                lblError.Text = "Active Or Password is incorect ";
 
             }
         }
