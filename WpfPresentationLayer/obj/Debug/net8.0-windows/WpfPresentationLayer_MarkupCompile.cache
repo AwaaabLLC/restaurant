@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\App.xaml
-31604807615
+51441945732
 
-6-320263195
-2041873670905
-Admin\addUser.xaml;Admin\main.xaml;MainWindow.xaml;
+8-1632136519
+220407910660
+Admin\addUser.xaml;Admin\main.xaml;Admin\updateEmployeeRole.xaml;Admin\viewAllUsers.xaml;MainWindow.xaml;
 
-True
+False
 

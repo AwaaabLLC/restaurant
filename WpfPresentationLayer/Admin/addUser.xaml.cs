@@ -24,11 +24,44 @@ namespace WpfPresentationLayer.Admin
     /// </summary>
     public partial class addUser : Page
     {
-        private IUsersManager _usersManager;
+        private IUsersManager usersManager;
+        private IEmployeesManager employeesManager;
+        private List<User> users;
+        private List<string> emails;
         public addUser()
         {
             InitializeComponent();
-            _usersManager = new UserManager();
+            usersManager = new UsersManager();
+            employeesManager = new EmployeesManager();
+            users = new List<User>();
+            emails = new List<string>();
+            updateDropDownLists();
+        }
+
+        private void updateDropDownLists()
+        {
+            List<Employee> employees = new List<Employee>();
+            employees = employeesManager.getAllEmployees();
+            foreach (Employee employee in employees)
+            {
+                emails.Add(employee.EmailAddress);
+            }
+            users = usersManager.getAllUsers();
+            List<string> emailsWithoutUser = new List<string>();
+            foreach (string email in emails) 
+            {
+                bool result = true;
+                foreach (User user in users) 
+                {
+                    if (email.Equals(user.EmailAddress))
+                    {
+                        result = false;
+                    }
+                }
+                if (result) emailsWithoutUser.Add(email);
+            }
+            ComboEmail.ItemsSource = emailsWithoutUser;
+            lblSpan.Content = "there is " + emailsWithoutUser.Count + " employees without users";
         }
 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
@@ -38,20 +71,23 @@ namespace WpfPresentationLayer.Admin
             if (isFormValid())
             {
                 User user = new User();
-                user.FirstName = txtFirstName.Text;
-                user.LastName = txtLastName.Text;
-                user.EmailAddress = txtEmail.Text;
-                user.UserName = txtEmail.Text;
-                user.CellPhone = txtCellPhone.Text;
-                user.Password = txtPassword.Password;
+                user.EmailAddress = ComboEmail.SelectedItem.ToString();
+                foreach (User item in users)
+                {
+                    if (item.EmailAddress.Equals(user.EmailAddress))
+                    {
+                        user.EmployeeId = item.EmployeeId;
+                        break;
+                    }
+                }
                 try
                 {
-                    addStatus = _usersManager.addNewUser(user);
+                    addStatus = usersManager.addNewUser(user);
                 }
                 catch (Exception ex)
                 {
 
-                    lblSpan.Content = ex.ToString();
+                    lblSpan.Content = "Already have acount " + ex.Message;
                     return;
                 }
                 if (addStatus)
@@ -69,24 +105,40 @@ namespace WpfPresentationLayer.Admin
         }
         private void clearForm()
         {
-            txtFirstName.Text = string.Empty;  
-            txtLastName.Text = string.Empty;
-            txtEmail.Text = string.Empty;
-            txtCellPhone.Text = string.Empty;
-            txtPassword.Password = string.Empty;
-            txtConfirmPassword.Password = string.Empty;
+            ComboEmail.SelectedIndex = 0;
         }
         private bool isFormValid()
         {
-            if (txtFirstName.Text.Length == 0) { lblSpan.Content = "First name require"; txtFirstName.Focus(); return false; }
-            if (txtLastName.Text.Length == 0) { lblSpan.Content = "Last name require"; txtLastName.Focus(); return false; }
-            if (txtEmail.Text.Length == 0) { lblSpan.Content = "Email require"; txtEmail.Focus(); return false; }
-            if (txtCellPhone.Text.Length == 0) { lblSpan.Content = "Cell phone require"; txtCellPhone.Focus(); return false; }
-            if (txtPassword.Password.Length == 0) { lblSpan.Content = "Password require"; txtPassword.Focus(); return false; }
-            if (txtConfirmPassword.Password.Length == 0) { lblSpan.Content = "Confirm password require"; txtConfirmPassword.Focus(); return false; }
-            if (!txtConfirmPassword.Password.Equals(txtPassword.Password)) { lblSpan.Content = "Confirm password must match password"; txtConfirmPassword.Focus(); return false; }
+            if (ComboEmail.SelectedItem == null)
+            {
+                lblSpan.Content = "select email from dropdown lsit";
+                return false;
+            }
             lblSpan.Content = "";
             return true;
+        }
+
+        private void ComboEmail_DropDownClosed(object sender, EventArgs e)
+        {
+            string? email = null;
+            if (ComboEmail.SelectedItem.ToString() != null)
+            {
+                email = ComboEmail.SelectedItem.ToString();
+            }
+            List<Employee> employees = new List<Employee>();
+            employees = employeesManager.getAllEmployees();
+            Employee employee = new Employee();
+            foreach (Employee emp in employees)
+            {
+                if (emp.EmailAddress.Equals(email))
+                {
+                    txtEmployeeId.Text = emp.EmployeeId.ToString();
+                    txtFirstName.Text = emp.FirstName.ToString();
+                    txtLastName.Text = emp.LastName.ToString();
+                    txtPhones.Text = emp.CellPhone;
+                }
+            }
+
         }
     }
 }

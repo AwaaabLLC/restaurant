@@ -49,10 +49,10 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Grid Grid.Column="0">
-                        <Label x:Name="lblFirstName" Content="First Name"/>
+                        <Label x:Name="lblEmail" Content="Employee Email"/>
                     </Grid>
                     <Grid Grid.Column="1">
-                        <TextBox x:Name="txtFirstName" Width="200" Height="20" HorizontalAlignment="Left"/>
+                        <ComboBox x:Name="ComboEmail" Width="200" Height="20" HorizontalAlignment="Left" DropDownClosed="ComboEmail_DropDownClosed"/>
                     </Grid>
                 </Grid>
                 <Grid Grid.Row="2">
@@ -61,10 +61,10 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Grid Grid.Column="0">
-                        <Label x:Name="lblLastName" Content="Last Name"/>
+                        <Label x:Name="lblEmployeeId" Content="EmployeeId"/>
                     </Grid>
                     <Grid Grid.Column="1">
-                        <TextBox x:Name="txtLastName" Width="200" Height="20" HorizontalAlignment="Left"/>
+                        <TextBox x:Name="txtEmployeeId" IsReadOnly="True" Width="200" Height="20" HorizontalAlignment="Left"/>
                     </Grid>
                 </Grid>
                 <Grid Grid.Row="3">
@@ -73,10 +73,10 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Grid Grid.Column="0">
-                        <Label x:Name="lblEmail" Content="Email"/>
+                        <Label x:Name="lblFirstName" Content="First Name"/>
                     </Grid>
                     <Grid Grid.Column="1">
-                        <TextBox x:Name="txtEmail" Width="200" Height="20" HorizontalAlignment="Left"/>
+                        <TextBox x:Name="txtFirstName" IsReadOnly="True" Width="200" Height="20" HorizontalAlignment="Left"/>
                     </Grid>
                 </Grid>
                 <Grid Grid.Row="4">
@@ -85,10 +85,10 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Grid Grid.Column="0">
-                        <Label x:Name="lblCellPhone" Content="Cell Phone"/>
+                        <Label x:Name="lblLastName" Content="Last Name"/>
                     </Grid>
                     <Grid Grid.Column="1">
-                        <TextBox x:Name="txtCellPhone" Width="200" Height="20" HorizontalAlignment="Left"/>
+                        <TextBox x:Name="txtLastName" IsReadOnly="True" Width="200" Height="20" HorizontalAlignment="Left"/>
                     </Grid>
                 </Grid>
                 <Grid Grid.Row="5">
@@ -97,10 +97,10 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Grid Grid.Column="0">
-                        <Label x:Name="lblPassword" Content="Password"/>
+                        <Label x:Name="lblPhone" Content="Phone"/>
                     </Grid>
                     <Grid Grid.Column="1">
-                        <PasswordBox x:Name="txtPassword" Width="200" Height="20" HorizontalAlignment="Left"/>
+                        <TextBox x:Name="txtPhones" IsReadOnly="True" Width="200" Height="20" HorizontalAlignment="Left"/>
                     </Grid>
                 </Grid>
                 <Grid Grid.Row="6">
@@ -109,10 +109,8 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Grid Grid.Column="0">
-                        <Label x:Name="lblConfirmPassword" Content="Confirm Password" BorderBrush="Black" Background="{x:Null}"/>
                     </Grid>
                     <Grid Grid.Column="1">
-                        <PasswordBox x:Name="txtConfirmPassword" Width="200" Height="20" HorizontalAlignment="Left"/>
                     </Grid>
                 </Grid>
                 <Grid Grid.Row="7">

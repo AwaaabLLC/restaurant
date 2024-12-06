@@ -28,5 +28,15 @@ namespace WpfPresentationLayer.Admin
         {
             frmAdminMain.Navigate(new System.Uri("./Admin/addUser.xaml",UriKind.RelativeOrAbsolute));
         }
+
+        private void btnViewAllUsers_Click(object sender, RoutedEventArgs e)
+        {
+            frmAdminMain.Navigate(new System.Uri("./Admin/viewAllUsers.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void btnRole_Click(object sender, RoutedEventArgs e)
+        {
+            frmAdminMain.Navigate(new System.Uri("./Admin/updateEmployeeRole.xaml", UriKind.RelativeOrAbsolute));
+        }
     }
 }

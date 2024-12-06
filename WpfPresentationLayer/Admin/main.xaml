@@ -29,10 +29,10 @@
 				<Button x:Name="btnAddUser" Content="Add User" Width="90" Click="btnAddUser_Click"/>
 			</Grid>
 			<Grid Grid.Column="2">
-				<Button x:Name="btnDeactiveUser" Content="Deactive User" Width="90"/>
+				<Button x:Name="btnRole" Content="Employees Role" Width="90" Click="btnRole_Click"/>
 			</Grid>
 			<Grid Grid.Column="3">
-				<Button x:Name="btnViewAllUsers" Content="View All User" Width="90"/>
+				<Button x:Name="btnViewAllUsers" Content="View All User" Width="90" Click="btnViewAllUsers_Click"/>
 			</Grid>
 			<Grid Grid.Column="4"></Grid>
 			<Grid Grid.Column="5"></Grid>
