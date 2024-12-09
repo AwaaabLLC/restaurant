@@ -13,5 +13,7 @@ namespace ILogicLayer
         bool addNewUser(User user);
         List<string> getAllRoles();
         bool updateEmployeeRole(int employeeId, string? RoleId);
+        bool isAutherize(string username, string password);
+        string getEmployeeRole(string username);
     }
 }

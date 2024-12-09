@@ -24,12 +24,12 @@ namespace LogicLayer
             this.employeesAccessor = userAccessor;
         }
 
-        public bool addNewUser(Employee user)
+        public bool addNewEmployee(Employee user)
         {
             bool result = false;
             try
             {
-                result = employeesAccessor.inserNewUser(user);
+                result = employeesAccessor.inserNewEmployee(user);
             }
             catch (Exception)
             {

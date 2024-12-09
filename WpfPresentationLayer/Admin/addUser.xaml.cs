@@ -28,6 +28,7 @@ namespace WpfPresentationLayer.Admin
         private IEmployeesManager employeesManager;
         private List<User> users;
         private List<string> emails;
+        private List<Employee> employees = new List<Employee>();
         public addUser()
         {
             InitializeComponent();
@@ -40,7 +41,7 @@ namespace WpfPresentationLayer.Admin
 
         private void updateDropDownLists()
         {
-            List<Employee> employees = new List<Employee>();
+           
             employees = employeesManager.getAllEmployees();
             foreach (Employee employee in employees)
             {
@@ -72,7 +73,7 @@ namespace WpfPresentationLayer.Admin
             {
                 User user = new User();
                 user.EmailAddress = ComboEmail.SelectedItem.ToString();
-                foreach (User item in users)
+                foreach (Employee item in employees)
                 {
                     if (item.EmailAddress.Equals(user.EmailAddress))
                     {
@@ -121,7 +122,7 @@ namespace WpfPresentationLayer.Admin
         private void ComboEmail_DropDownClosed(object sender, EventArgs e)
         {
             string? email = null;
-            if (ComboEmail.SelectedItem.ToString() != null)
+            if (ComboEmail.SelectedItem != null)
             {
                 email = ComboEmail.SelectedItem.ToString();
             }

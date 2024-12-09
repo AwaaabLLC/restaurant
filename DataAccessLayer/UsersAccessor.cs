@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Threading.Tasks;
 using DataObjectLayer;
@@ -11,6 +12,7 @@ namespace DataAccessLayer
 {
     public class UsersAccessor : IUsersAccessor
     {
+
         public bool deactiveActiveUser(User user)
         {
             bool result = false;
@@ -52,6 +54,27 @@ namespace DataAccessLayer
             }
             catch (Exception)
             {
+                throw;
+            }
+            finally { conn.Close(); }
+            return result;
+        }
+
+        public bool isAutherize(string username, string password)
+        {
+            bool result = false;
+            SqlConnection conn = DBConnection.GetDBConnection();
+            SqlCommand cmd = new SqlCommand("sp_is_autherize", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@username", username);
+            cmd.Parameters.AddWithValue("@password", password);
+            try
+            {
+                conn.Open();
+                result = (int)cmd.ExecuteScalar() == 1;
+            }
+            catch (Exception)
+            {
 
                 throw;
             }
@@ -69,7 +92,7 @@ namespace DataAccessLayer
             {
                 conn.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
-                if (reader.Read())
+                if (reader.HasRows)
                 {
                     while (reader.Read())
                     {
@@ -97,7 +120,7 @@ namespace DataAccessLayer
             {
                 conn.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
-                if (reader.Read())
+                if (reader.HasRows)
                 {
                     while (reader.Read())
                     {
@@ -114,8 +137,36 @@ namespace DataAccessLayer
             {
 
                 throw;
-            }
+            }finally { conn.Close(); }
             return users;
+        }
+
+        public string selectEmployeeRole(string username)
+        {
+            string role = string.Empty;
+            SqlConnection conn = DBConnection.GetDBConnection();
+            SqlCommand cmd = new SqlCommand("sp_select_employee_role", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@username", username);
+            try
+            {
+                conn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        role = reader.GetString(0);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally { conn.Close(); }
+            return role;
         }
 
         public bool updateEmployeeRole(int employeeId, string? roleId)

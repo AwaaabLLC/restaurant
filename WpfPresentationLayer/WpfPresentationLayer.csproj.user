@@ -19,6 +19,24 @@
     <Compile Update="Admin\viewAllUsers.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Leader\Main.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Leader\products.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Leader\viewAllProducts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Manager\addEmployee.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Manager\allEmployees.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Manager\Main.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Admin\addUser.xaml">
@@ -33,7 +51,25 @@
     <Page Update="Admin\viewAllUsers.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Leader\Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Leader\products.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Leader\viewAllProducts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Manager\addEmployee.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Manager\allEmployees.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Manager\Main.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

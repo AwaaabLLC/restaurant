@@ -96,5 +96,35 @@ namespace LogicLayer
             }
             return result;
         }
+
+        public bool isAutherize(string username, string password)
+        {
+            bool result = false;
+            try
+            {
+                result = usersAccessor.isAutherize(username, HelpTools.EncryptSHA256(password));
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return result;
+        }
+
+        public string getEmployeeRole(string username)
+        {
+            string role = string.Empty;
+            try
+            {
+                role = usersAccessor.selectEmployeeRole(username);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return role;
+        }
     }
 }

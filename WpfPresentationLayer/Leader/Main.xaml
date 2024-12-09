@@ -1,0 +1,38 @@
+﻿<Window x:Class="WpfPresentationLayer.Leader.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPresentationLayer.Leader"
+        mc:Ignorable="d"
+        Title="Main" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Button x:Name="btnProducts" Content="add products" Width="80" Height="30" Click="btnProducts_Click"/>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Button x:Name="btnViewProducts" Content="view products" Width="80" Height="30" Click="btnViewProducts_Click"/>
+            </Grid>
+            <Grid Grid.Column="3"></Grid>
+            <Grid Grid.Column="4"></Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Frame x:Name="frmLeaderMain" ></Frame>
+        </Grid>
+        <Grid Grid.Row="2"></Grid>
+    </Grid>
+</Window>

@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using ILogicLayer;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -8,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using LogicLayer;
 
 namespace WpfPresentationLayer
 {
@@ -17,9 +19,11 @@ namespace WpfPresentationLayer
     public partial class MainWindow : Window
     {
         private bool _flag;
+        private IUsersManager usersManager;
         public MainWindow()
         {
             InitializeComponent();
+            usersManager = new UsersManager();
             _flag = true;
         }
 
@@ -40,6 +44,18 @@ namespace WpfPresentationLayer
                         main.Show();
                         this.Close();
                     }
+                    if (role.Equals("Manager")) 
+                    { 
+                        Manager.Main main = new Manager.Main();
+                        main.Show();
+                        this.Close();                    
+                    }
+                    if (role.Equals("leader"))
+                    {
+                        Leader.Main main = new Leader.Main();
+                        main.Show();
+                        this.Close();
+                    }
                 }
                 else return; 
             }
@@ -53,12 +69,18 @@ namespace WpfPresentationLayer
 
         private string getRole(string username)
         {
-            if (username.Equals("Admin"))
+            string role = string.Empty;
+            try
             {
-                return "Admin";
+                role = usersManager.getEmployeeRole(username);
             }
+            catch (Exception ex)
+            {
 
-            return "";
+                lblLoginSpan.Content = ex.Message;
+            }
+            return role;
+            
         }
 
         private bool isVerified(string username, string password)
@@ -78,7 +100,7 @@ namespace WpfPresentationLayer
 
         private bool isAutherize(string username, string password)
         {
-            if (username.Equals("Admin") && password.Equals("Admin")) return true;
+            if (usersManager.isAutherize(username, password)) return true;
             lblLoginSpan.Content = "username and password is not match!";
             return false;
         }

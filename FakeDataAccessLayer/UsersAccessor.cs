@@ -20,12 +20,22 @@ namespace FakeDataAccessLayer
             throw new NotImplementedException();
         }
 
+        public bool isAutherize(string username, string password)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<string> selectAllRoles()
         {
             throw new NotImplementedException();
         }
 
         public List<User> selectAllUsers()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string selectEmployeeRole(string username)
         {
             throw new NotImplementedException();
         }

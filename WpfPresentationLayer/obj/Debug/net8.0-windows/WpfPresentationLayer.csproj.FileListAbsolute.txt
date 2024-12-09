@@ -111,3 +111,15 @@ D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPres
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\ref\WpfPresentationLayer.dll
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.g.cs
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.baml

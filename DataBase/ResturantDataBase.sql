@@ -74,7 +74,31 @@ ADD CONSTRAINT [fk_EmployeeID] FOREIGN KEY([EmployeeID])
 REFERENCES [dbo].[Employee]([EmployeeID])
 ON UPDATE CASCADE
 GO
+print '' print '*** Creating the Users table'
+GO
 
+CREATE TABLE [dbo].[Products](
+	[ProductID] [int] IDENTITY (100000, 1) NOT NULL,
+	[Name] [nvarchar] (255) ,
+	[QTY] [nvarchar] (100) NOT NULL DEFAULT '0',
+	[Price] [nvarchar] (100) NOT NULL DEFAULT '0',
+	[UPC] [nvarchar] (100) NOT NULL DEFAULT '0',
+	CONSTRAINT [pk_Products_ProductID] PRIMARY KEY ([ProductID] ASC), 
+	CONSTRAINT [ak_Products_UPC] UNIQUE ([UPC] ASC)
+)
+GO
+print '' print '*** Inserting Products records'
+GO
+INSERT INTO [dbo].[Products]
+([Name], [QTY], [Price], [UPC])
+VALUES
+('Prod1','10','100','123456789'),
+('Prod2','10','200','9987654321'),
+('Prod3', '10','300','678954321'),
+('Prod4', '10', '400','543216789')
+
+
+GO
 print '' print '*** Inserting Role records'
 GO
 INSERT INTO [dbo].[Role]
@@ -226,7 +250,52 @@ AS
 	END
 GO
 
+print '' print '*** Creating sp_is_autherize'
+GO
+Create PROCEDURE [dbo].[sp_is_autherize]
+(@username [nvarchar] (255), @password [nvarchar] (100))
+AS
+	BEGIN
+		SELECT Count(EmployeeId)
+		FROM	Users
+		WHERE	Email = @username
+		AND	PasswordHash = @Password
+		AND	Active = 1	
+	END
+GO
+
+print '' print '*** Creating sp_select_employee_role'
+GO
+Create PROCEDURE [dbo].[sp_select_employee_role]
+(@username [nvarchar] (255))
+AS
+	BEGIN
+		DECLARE @employeeId AS INT
+		SET @employeeId = (SELECT EmployeeID FROM employee WHERE Email = @username);
+		SELECT RoleID
+		FROM	EmployeeRole
+		WHERE	EmployeeID = @employeeId	
+	END
+GO
+
+print '' print '*** Creating sp_insert_product'
+GO
+Create PROCEDURE [dbo].[sp_insert_product]
+(@Name [nvarchar](255), @QTY [nvarchar](100), @Price [nvarchar](100), @UPC [nvarchar](100))
+AS
+	BEGIN
+		INSERT INTO [dbo].[Products]([Name], [QTY], [Price], [UPC])
+     		VALUES    (@Name, @QTY, @Price, @UPC);	
+	END
+GO
 
 
-
-
+print '' print '*** Creating sp_select_all_products'
+GO
+Create PROCEDURE [dbo].[sp_select_all_products]
+AS
+	BEGIN
+		SELECT [ProductID], [Name], [QTY], [Price], [UPC]
+		FROM	Products;
+	END
+GO

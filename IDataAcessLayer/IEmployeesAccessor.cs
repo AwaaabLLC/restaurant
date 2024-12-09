@@ -9,7 +9,7 @@ namespace IDataAcessLayer
 {
     public interface IEmployeesAccessor
     {
-       bool inserNewUser(Employee user);
+       bool inserNewEmployee(Employee user);
         List<Employee> selectAllEmployees();
         bool updateEmployee(Employee employee);
     }

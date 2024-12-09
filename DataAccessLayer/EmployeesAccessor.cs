@@ -12,7 +12,7 @@ namespace DataAccessLayer
 {
     public class EmployeesAccessor : IEmployeesAccessor
     {
-        public bool inserNewUser(Employee employee)
+        public bool inserNewEmployee(Employee employee)
         {
             bool result = false;
             SqlConnection conn = DBConnection.GetDBConnection();
@@ -51,7 +51,7 @@ namespace DataAccessLayer
             {
                 conn.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
-                if (reader.Read()) 
+                if (reader.HasRows) 
                 {
                     while (reader.Read()) 
                     {

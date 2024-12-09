@@ -1,0 +1,24 @@
+﻿<Page x:Class="WpfPresentationLayer.Leader.viewAllProducts"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfPresentationLayer.Leader"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="viewAllProducts">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <DataGrid x:Name="dgViewAllProducts"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Label x:Name="lblSpan"/>
+        </Grid>
+    </Grid>
+</Page>

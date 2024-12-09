@@ -1,0 +1,100 @@
+﻿<Page x:Class="WpfPresentationLayer.Leader.Products"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfPresentationLayer.Leader"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="products">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="250"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblUPC" Content="UPC"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtUPC" Height="20" Width="180"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblName" Content="Name"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtName" Height="20" Width="180"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblQty" Content="Quantaty"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtQty" Height="20" Width="180"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblPrice" Content="Price"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtPrice" Height="20" Width="180"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="5">
+                </Grid>
+                <Grid Grid.Row="6">
+                    <Button x:Name="btnSubmit" Content="Submit" Width="80" Height="30" Click="btnSubmit_Click"/>
+                </Grid>
+                <Grid Grid.Row="7"></Grid>
+                <Grid Grid.Row="8">
+                    <Label x:Name="lblSpan" Foreground="Red"/>
+                </Grid>
+                <Grid Grid.Row="9"></Grid>
+                <Grid Grid.Row="10"></Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

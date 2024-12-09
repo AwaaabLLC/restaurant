@@ -66,7 +66,7 @@ namespace FakeDataAccessLayer
             _users.Add(user);
         }
 
-        public bool inserNewUser(Employee user)
+        public bool inserNewEmployee(Employee user)
         {
             int prevLength = _users.Count;
             _users.Add(user);

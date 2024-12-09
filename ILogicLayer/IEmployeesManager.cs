@@ -9,7 +9,7 @@ namespace ILogicLayer
 {
     public interface IEmployeesManager
     {
-        bool addNewUser(Employee user);
+        bool addNewEmployee(Employee user);
         List<Employee> getAllEmployees();
         bool updateEmployee(Employee employee);
     }
