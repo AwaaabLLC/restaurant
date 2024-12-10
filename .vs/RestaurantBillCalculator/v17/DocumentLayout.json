@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Awaab\\Awaaab\\restaurant\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4A6240-3854-48A6-A66F-BAF96E3C326E}|TestLogicLayer\\TestLogicLayer.csproj|d:\\awaab\\awaaab\\restaurant\\testlogiclayer\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A4A6240-3854-48A6-A66F-BAF96E3C326E}|TestLogicLayer\\TestLogicLayer.csproj|solutionrelative:testlogiclayer\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4A6240-3854-48A6-A66F-BAF96E3C326E}|TestLogicLayer\\TestLogicLayer.csproj|d:\\awaab\\awaaab\\restaurant\\testlogiclayer\\employeesmanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A4A6240-3854-48A6-A66F-BAF96E3C326E}|TestLogicLayer\\TestLogicLayer.csproj|solutionrelative:testlogiclayer\\employeesmanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesManagerTest.cs",
+              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\TestLogicLayer\\EmployeesManagerTest.cs",
+              "RelativeDocumentMoniker": "TestLogicLayer\\EmployeesManagerTest.cs",
+              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\TestLogicLayer\\EmployeesManagerTest.cs",
+              "RelativeToolTip": "TestLogicLayer\\EmployeesManagerTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:57:10.902Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\TestLogicLayer\\Test1.cs",
+              "RelativeDocumentMoniker": "TestLogicLayer\\Test1.cs",
+              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\TestLogicLayer\\Test1.cs",
+              "RelativeToolTip": "TestLogicLayer\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:57:42.416Z",
+              "EditorCaption": ""
             }
           ]
         }

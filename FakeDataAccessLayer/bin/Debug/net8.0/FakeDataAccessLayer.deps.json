@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FakeDataAccessLayer/1.0.0": {
+        "dependencies": {
+          "DataObjectLayer": "1.0.0",
+          "IDataAcessLayer": "1.0.0"
+        },
+        "runtime": {
+          "FakeDataAccessLayer.dll": {}
+        }
+      },
+      "DataObjectLayer/1.0.0": {
+        "runtime": {
+          "DataObjectLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "IDataAcessLayer/1.0.0": {
+        "dependencies": {
+          "DataObjectLayer": "1.0.0"
+        },
+        "runtime": {
+          "IDataAcessLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FakeDataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataObjectLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IDataAcessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

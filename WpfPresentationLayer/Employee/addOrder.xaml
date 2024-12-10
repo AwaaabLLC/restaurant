@@ -1,0 +1,67 @@
+﻿<Page x:Class="WpfPresentationLayer.Employee.addOrder"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfPresentationLayer.Employee"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="addOrder">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="250"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Row="1" Grid.Column="0">
+                    <Label x:Name="lblProductName" Content="Product Name"/>
+                </Grid>
+                <Grid Grid.Row="1" Grid.Column="1">
+                    <ComboBox x:Name="comboProductName" Width="180" Height="30"/>
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="0">
+                    <Label x:Name="lblCustomerName" Content="Customer Name"/>
+                </Grid>
+                <Grid Grid.Row="2" Grid.Column="1">
+                    <TextBox x:Name="txtCustomerName" Width="180" Height="30"/>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="0">
+                    <Label x:Name="lblTableNumber" Content="Table Number"/>
+                </Grid>
+                <Grid Grid.Row="3" Grid.Column="1">
+                    <ComboBox x:Name="comboTableNumber" Width="180" Height="30"/>
+                </Grid>
+                <Grid Grid.Row="4" Grid.Column="1">
+                    <Button x:Name="btnSubmit" Content="Submit" Width="100" Height="30" Click="btnSubmit_Click"/>
+                </Grid>
+                <Grid Grid.Row="5" Grid.Column="1">
+                    <Label x:Name="lblSpan" Foreground="Red" Width="180" Height="30"/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

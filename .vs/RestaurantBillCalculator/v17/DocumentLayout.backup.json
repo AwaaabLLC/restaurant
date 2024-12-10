@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Awaab\\Awaaab\\restaurant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|d:\\awaab\\awaaab\\restaurant\\dataaccesslayer\\productsaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\productsaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A4A6240-3854-48A6-A66F-BAF96E3C326E}|TestLogicLayer\\TestLogicLayer.csproj|d:\\awaab\\awaaab\\restaurant\\testlogiclayer\\employeesmanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A4A6240-3854-48A6-A66F-BAF96E3C326E}|TestLogicLayer\\TestLogicLayer.csproj|solutionrelative:testlogiclayer\\employeesmanagertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{646F9F94-9EDB-4FD5-A396-3B75F5B37F6E}|FakeDataAccessLayer\\FakeDataAccessLayer.csproj|d:\\awaab\\awaaab\\restaurant\\fakedataaccesslayer\\employeesaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{646F9F94-9EDB-4FD5-A396-3B75F5B37F6E}|FakeDataAccessLayer\\FakeDataAccessLayer.csproj|solutionrelative:fakedataaccesslayer\\employeesaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A05986E7-2D68-4F17-AC10-CBA8E919314D}|LogicLayer\\LogicLayer.csproj|d:\\awaab\\awaaab\\restaurant\\logiclayer\\employeesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A05986E7-2D68-4F17-AC10-CBA8E919314D}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\employeesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesAccessor.cs",
+              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\FakeDataAccessLayer\\EmployeesAccessor.cs",
+              "RelativeDocumentMoniker": "FakeDataAccessLayer\\EmployeesAccessor.cs",
+              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\FakeDataAccessLayer\\EmployeesAccessor.cs",
+              "RelativeToolTip": "FakeDataAccessLayer\\EmployeesAccessor.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAmwFIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:40:44.474Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsAccessor.cs",
-              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\ProductsAccessor.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\ProductsAccessor.cs",
-              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\DataAccessLayer\\ProductsAccessor.cs",
-              "RelativeToolTip": "DataAccessLayer\\ProductsAccessor.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAowDQAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EmployeesManager.cs",
+              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\LogicLayer\\EmployeesManager.cs",
+              "RelativeDocumentMoniker": "LogicLayer\\EmployeesManager.cs",
+              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\LogicLayer\\EmployeesManager.cs",
+              "RelativeToolTip": "LogicLayer\\EmployeesManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wCcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T03:08:18.94Z",
+              "WhenOpened": "2024-12-09T23:31:54.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesManagerTest.cs",
+              "DocumentMoniker": "D:\\Awaab\\Awaaab\\restaurant\\TestLogicLayer\\EmployeesManagerTest.cs",
+              "RelativeDocumentMoniker": "TestLogicLayer\\EmployeesManagerTest.cs",
+              "ToolTip": "D:\\Awaab\\Awaaab\\restaurant\\TestLogicLayer\\EmployeesManagerTest.cs",
+              "RelativeToolTip": "TestLogicLayer\\EmployeesManagerTest.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T23:20:33.886Z",
               "EditorCaption": ""
             }
           ]

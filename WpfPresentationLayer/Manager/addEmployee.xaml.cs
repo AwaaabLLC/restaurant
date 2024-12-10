@@ -34,7 +34,7 @@ namespace WpfPresentationLayer.Manager
         {
             if (isFormValid())
             {
-                Employee employee = new Employee();
+                DataObjectLayer.Employee employee = new DataObjectLayer.Employee();
                 employee.FirstName = txtFirstname.Text;
                 employee.LastName = txtLastname.Text;
                 employee.CellPhone = txtCellPhone.Text;

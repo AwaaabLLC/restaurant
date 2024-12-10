@@ -10,20 +10,18 @@ namespace FakeDataAccessLayer
 {
     public class EmployeesAccessor : IEmployeesAccessor
     {
-        private List<Employee> _users;
+        private List<Employee> employees;
 
         public EmployeesAccessor()
         {
-            _users = new List<Employee>();
+            employees = new List<Employee>();
             Employee user = new Employee();
             user.EmployeeId = 1;
             user.FirstName = "a1";
             user.LastName = "b1";
             user.CellPhone = "c1";
             user.EmailAddress = "d1";
-            user.Active = true;
-            user.Password = "e1";
-            _users.Add(user);
+            employees.Add(user);
 
             user = new Employee();
             user.EmployeeId = 2;
@@ -31,9 +29,7 @@ namespace FakeDataAccessLayer
             user.LastName = "b2";
             user.CellPhone = "c2";
             user.EmailAddress = "d2";
-            user.Active = true;
-            user.Password = "e2";
-            _users.Add(user);
+            employees.Add(user);
 
             user = new Employee();
             user.EmployeeId = 3;
@@ -41,9 +37,7 @@ namespace FakeDataAccessLayer
             user.LastName = "b3";
             user.CellPhone = "c3";
             user.EmailAddress = "d3";
-            user.Active = true;
-            user.Password = "e3";
-            _users.Add(user);
+            employees.Add(user);
 
             user = new Employee();
             user.EmployeeId = 4;
@@ -51,9 +45,7 @@ namespace FakeDataAccessLayer
             user.LastName = "b4";
             user.CellPhone = "c4";
             user.EmailAddress = "d4";
-            user.Active = true;
-            user.Password = "e4";
-            _users.Add(user);
+            employees.Add(user);
 
             user = new Employee();
             user.EmployeeId = 5;
@@ -61,26 +53,37 @@ namespace FakeDataAccessLayer
             user.LastName = "b5";
             user.CellPhone = "c5";
             user.EmailAddress = "d5";
-            user.Active = true;
-            user.Password = "e5";
-            _users.Add(user);
+            employees.Add(user);
         }
 
         public bool inserNewEmployee(Employee user)
         {
-            int prevLength = _users.Count;
-            _users.Add(user);
-            return _users.Count - prevLength == 1;
+            int prevLength = employees.Count;
+            employees.Add(user);
+            return employees.Count - prevLength == 1;
         }
 
         public List<Employee> selectAllEmployees()
         {
-            throw new NotImplementedException();
+            return employees;
         }
 
         public bool updateEmployee(Employee employee)
         {
-            throw new NotImplementedException();
+            bool result = false;
+            foreach (Employee emp in employees) 
+            {
+                if (emp.EmployeeId == employee.EmployeeId)
+                {
+                    emp.FirstName = employee.FirstName;
+                    emp.LastName = employee.LastName;
+                    emp.CellPhone = employee.CellPhone;
+                    emp.EmailAddress = employee.EmailAddress;
+                    result = true;
+                    break;
+                }
+            }
+            return result;
         }
     }
 }

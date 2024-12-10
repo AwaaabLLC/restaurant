@@ -23,7 +23,7 @@ namespace WpfPresentationLayer.Admin
     /// </summary>
     public partial class updateRole : Page
     {
-        private List<Employee> employees;
+        private List<DataObjectLayer.Employee> employees;
         private IEmployeesManager employeesManager;
         private IUsersManager usersManager;
         private List<string> emails = new List<string>();
@@ -33,7 +33,7 @@ namespace WpfPresentationLayer.Admin
             InitializeComponent();
             employeesManager = new EmployeesManager();
             usersManager = new UsersManager();
-            employees = new List<Employee>();
+            employees = new List<DataObjectLayer.Employee>();
             getAllEmployees();
             getAllRoles();
             fillCombo();
@@ -55,7 +55,7 @@ namespace WpfPresentationLayer.Admin
         private void fillCombo()
         {
             emails = new List<string>();
-            foreach (Employee e in employees) 
+            foreach (DataObjectLayer.Employee e in employees) 
             {
                 emails.Add(e.EmailAddress);
             }
@@ -80,10 +80,10 @@ namespace WpfPresentationLayer.Admin
 
         private void comboEmail_DropDownClosed(object sender, EventArgs er)
         {
-            Employee employee= new Employee();
+            DataObjectLayer.Employee employee= new DataObjectLayer.Employee();
             if (comboEmail.SelectedIndex >= 0)
             {
-                foreach (Employee e in employees)
+                foreach (DataObjectLayer.Employee e in employees)
                 {
                     if (e.EmailAddress.Equals(comboEmail.SelectedItem))
                     {

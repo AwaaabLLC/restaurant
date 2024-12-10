@@ -19,9 +19,9 @@ namespace LogicLayer
             employeesAccessor = new EmployeesAccessor();
         }
 
-        public EmployeesManager(IEmployeesAccessor userAccessor)
+        public EmployeesManager(IEmployeesAccessor employeesAccessor)
         {
-            this.employeesAccessor = userAccessor;
+            this.employeesAccessor = employeesAccessor;
         }
 
         public bool addNewEmployee(Employee user)

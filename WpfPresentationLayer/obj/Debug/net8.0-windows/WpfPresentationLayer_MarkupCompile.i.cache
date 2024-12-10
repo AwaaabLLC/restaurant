@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\App.xaml
-11-792326631
+1455417520
 
-161804664598
+19-1730906024
 220407910660
-Admin\addUser.xaml;Admin\main.xaml;Admin\updateEmployeeRole.xaml;Admin\viewAllUsers.xaml;Leader\Main.xaml;Leader\products.xaml;Leader\viewAllProducts.xaml;MainWindow.xaml;Manager\addEmployee.xaml;Manager\allEmployees.xaml;Manager\Main.xaml;
+Admin\addUser.xaml;Admin\main.xaml;Admin\updateEmployeeRole.xaml;Admin\viewAllUsers.xaml;Employee\addOrder.xaml;Employee\allOrders.xaml;Employee\main.xaml;Leader\Main.xaml;Leader\products.xaml;Leader\viewAllProducts.xaml;MainWindow.xaml;Manager\addEmployee.xaml;Manager\allEmployees.xaml;Manager\Main.xaml;
 
 False
 

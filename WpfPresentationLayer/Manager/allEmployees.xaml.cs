@@ -33,12 +33,12 @@ namespace WpfPresentationLayer.Manager
 
         private void refreshDataGridsData()
         {
-            List<Employee> employees = new List<Employee>();
+            List<DataObjectLayer.Employee> employees = new List<DataObjectLayer.Employee>();
             employees = getEmployeesData();
             dgEmployees.ItemsSource = employees;
         }
 
-        private List<Employee> getEmployeesData()
+        private List<DataObjectLayer.Employee> getEmployeesData()
         {
             try
             {
@@ -49,7 +49,7 @@ namespace WpfPresentationLayer.Manager
 
                 lblSpan.Content = ex.Message;
             }
-            return new List<Employee>();
+            return new List<DataObjectLayer.Employee>();
         }
     }
 }

@@ -87,6 +87,27 @@ CREATE TABLE [dbo].[Products](
 	CONSTRAINT [ak_Products_UPC] UNIQUE ([UPC] ASC)
 )
 GO
+print '' print '*** Creating the [Orders] table'
+GO
+CREATE TABLE [dbo].[Orders](
+	[OrderId] [int] IDENTITY (100000, 1) NOT NULL,
+	[ProductName] [nvarchar] (100) NOT NULL,
+	[CustomerName] [nvarchar] (100) NOT NULL ,
+	[TableNumber] [int] NOT NULL DEFAULT 0,
+	CONSTRAINT [pk_Orders_OrderId] PRIMARY KEY ([OrderId] ASC)
+)
+GO
+print '' print '*** Inserting [Orders] table records'
+GO
+INSERT INTO [dbo].[Orders]
+([ProductName], [CustomerName], [TableNumber])
+VALUES
+('Prod1','Customer1',1),
+('Prod2','Customer2',2),
+('Prod3', 'Customer3',3),
+('Prod4', 'Customer4',4)
+
+GO
 print '' print '*** Inserting Products records'
 GO
 INSERT INTO [dbo].[Products]
@@ -299,3 +320,25 @@ AS
 		FROM	Products;
 	END
 GO
+
+print '' print '*** Creating sp_insert_order'
+GO
+Create PROCEDURE [dbo].[sp_insert_order]
+(@ProductName [nvarchar](100),@CustomerName [nvarchar](100),@TableNumber [int])
+AS
+	BEGIN
+		INSERT INTO [dbo].[Orders]([ProductName], [CustomerName], [TableNumber])
+     		VALUES    (@ProductName, @CustomerName, @TableNumber);
+	END
+GO
+
+print '' print '*** Creating sp_select_all_orders'
+GO
+Create PROCEDURE [dbo].[sp_select_all_orders]
+AS
+	BEGIN
+		SELECT [OrderId], [ProductName], [CustomerName], [TableNumber]
+		FROM	Orders;
+	END
+GO
+
