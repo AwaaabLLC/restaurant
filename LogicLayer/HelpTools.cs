@@ -8,7 +8,7 @@ using DataObjectLayer;
 
 namespace LogicLayer
 {
-    internal class HelpTools
+    public class HelpTools
     {
         public static string EncryptSHA256(string source)
         {

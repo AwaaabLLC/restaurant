@@ -17,6 +17,12 @@ namespace LogicLayer
         { 
             ordersAccessor = new OrdersAccessor();
         }
+
+        public OrdersManager(IOrdersAccessor ordersAccessor)
+        {
+            this.ordersAccessor = ordersAccessor;
+        }
+
         public bool addOrder(Order order)
         {
             bool result = false;

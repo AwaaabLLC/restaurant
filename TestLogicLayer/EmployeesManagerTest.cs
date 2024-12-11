@@ -24,7 +24,7 @@ namespace TestLogicLayer
         public void TestGetAllEmployees()
         {
             List<Employee> employees = [];
-            Assert.Equal(5,_employeesManager.getAllEmployees().Count);
+            Assert.Equal(6,_employeesManager.getAllEmployees().Count);
         }
 
         [Fact]

@@ -34,3 +34,17 @@ D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalcul
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\Presenta.9C561136.Up2Date
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.exe
 D:\Awaab\Kirkwood\Tutor\Yousif\RestaurantBillCalculator (2)\RestaurantBillCalculator\PresentationLayer\obj\Debug\PresentationLayer.pdb
+D:\Awaab\Awaaab\restaurant\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+D:\Awaab\Awaaab\restaurant\PresentationLayer\bin\Debug\PresentationLayer.exe
+D:\Awaab\Awaaab\restaurant\PresentationLayer\bin\Debug\PresentationLayer.pdb
+D:\Awaab\Awaaab\restaurant\PresentationLayer\bin\Debug\DataObjectLayer.dll
+D:\Awaab\Awaaab\restaurant\PresentationLayer\bin\Debug\DataObjectLayer.pdb
+D:\Awaab\Awaaab\restaurant\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+D:\Awaab\Awaaab\restaurant\PresentationLayer\obj\Debug\PresentationLayer.frmLogin.resources
+D:\Awaab\Awaaab\restaurant\PresentationLayer\obj\Debug\PresentationLayer.frmOrder.resources
+D:\Awaab\Awaaab\restaurant\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+D:\Awaab\Awaaab\restaurant\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+D:\Awaab\Awaaab\restaurant\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+D:\Awaab\Awaaab\restaurant\PresentationLayer\obj\Debug\Presenta.9C561136.Up2Date
+D:\Awaab\Awaaab\restaurant\PresentationLayer\obj\Debug\PresentationLayer.exe
+D:\Awaab\Awaaab\restaurant\PresentationLayer\obj\Debug\PresentationLayer.pdb
