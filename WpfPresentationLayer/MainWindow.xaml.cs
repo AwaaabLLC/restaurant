@@ -56,12 +56,6 @@ namespace WpfPresentationLayer
                         main.Show();
                         this.Close();
                     }
-                    if (role.Equals("Employee"))
-                    {
-                        Employee.Main main = new Employee.Main();
-                        main.Show();
-                        this.Close();
-                    }
                 }
                 else return; 
             }

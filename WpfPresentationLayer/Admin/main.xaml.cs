@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 namespace WpfPresentationLayer.Admin
 {
     /// <summary>
-    /// Interaction logic for Main.xaml
+    /// Interaction logic for main.xaml
     /// </summary>
     public partial class Main : Window
     {

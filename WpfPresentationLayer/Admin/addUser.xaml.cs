@@ -28,7 +28,7 @@ namespace WpfPresentationLayer.Admin
         private IEmployeesManager employeesManager;
         private List<User> users;
         private List<string> emails;
-        private List<DataObjectLayer.Employee> employees = new List<DataObjectLayer.Employee>();
+        private List<Employee> employees = new List<Employee>();
         public addUser()
         {
             InitializeComponent();
@@ -43,7 +43,7 @@ namespace WpfPresentationLayer.Admin
         {
            
             employees = employeesManager.getAllEmployees();
-            foreach (DataObjectLayer.Employee employee in employees)
+            foreach (Employee employee in employees)
             {
                 emails.Add(employee.EmailAddress);
             }
@@ -73,7 +73,7 @@ namespace WpfPresentationLayer.Admin
             {
                 User user = new User();
                 user.EmailAddress = ComboEmail.SelectedItem.ToString();
-                foreach (DataObjectLayer.Employee item in employees)
+                foreach (Employee item in employees)
                 {
                     if (item.EmailAddress.Equals(user.EmailAddress))
                     {
@@ -126,10 +126,10 @@ namespace WpfPresentationLayer.Admin
             {
                 email = ComboEmail.SelectedItem.ToString();
             }
-            List<DataObjectLayer.Employee> employees = new List<DataObjectLayer.Employee>();
+            List<Employee> employees = new List<Employee>();
             employees = employeesManager.getAllEmployees();
-            DataObjectLayer.Employee employee = new DataObjectLayer.Employee();
-            foreach (DataObjectLayer.Employee emp in employees)
+            Employee employee = new Employee();
+            foreach (Employee emp in employees)
             {
                 if (emp.EmailAddress.Equals(email))
                 {

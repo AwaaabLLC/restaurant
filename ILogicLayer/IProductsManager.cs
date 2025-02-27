@@ -10,6 +10,9 @@ namespace ILogicLayer
     public interface IProductsManager
     {
         bool addProduct(Product product);
+        bool deleteProduct(int id);
         List<Product> getAllProducts();
+        Product getProductsById(int? id);
+        int updateProduct(Product product);
     }
 }

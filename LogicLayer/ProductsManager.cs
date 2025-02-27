@@ -39,6 +39,20 @@ namespace LogicLayer
             return result;
         }
 
+        public bool deleteProduct(int id)
+        {
+            bool result = false;
+            try
+            {
+                result = productsAccessor.deleteProductById(id);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return result;
+        }
+
         public List<Product> getAllProducts()
         {
             List<Product> products = new List<Product>();
@@ -52,6 +66,37 @@ namespace LogicLayer
                 throw;
             }
             return products;
+        }
+
+        public Product getProductsById(int? id)
+        {
+            Product product = new Product();
+            try
+            {
+                product = productsAccessor.selectProductById(id);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return product;
+        }
+
+        public int updateProduct(Product product)
+        {
+            int result = 0;
+            try
+            {
+                result = productsAccessor.updateProduct(product);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return result;
+
         }
     }
 }

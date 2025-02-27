@@ -88,35 +88,15 @@ D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\bin\Debug\net8.0-windows\IDataAc
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.csproj.AssemblyReference.cache
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.g.cs
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\main.g.cs
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.g.cs
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\viewAllUsers.g.cs
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Employee\addOrder.g.cs
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Employee\allOrders.g.cs
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Employee\main.g.cs
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.g.cs
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.g.cs
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.g.cs
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\MainWindow.g.cs
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.g.cs
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.g.cs
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.g.cs
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\App.g.cs
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer_MarkupCompile.cache
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer_MarkupCompile.lref
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.baml
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\main.baml
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.baml
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\viewAllUsers.baml
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Employee\addOrder.baml
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Employee\allOrders.baml
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Employee\main.baml
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.baml
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.baml
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.baml
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\MainWindow.baml
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.baml
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.baml
-D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.baml
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.g.resources
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.AssemblyInfoInputs.cache
@@ -129,3 +109,293 @@ D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\refint\
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.pdb
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.genruntimeconfig.cache
 D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\ref\WpfPresentationLayer.dll
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.baml
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.g.cs
+D:\Awaab\Awaaab\restaurant\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.exe
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.deps.json
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.runtimeconfig.json
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.pdb
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataAccessLayer.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataObjectLayer.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\IDataAcessLayer.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ILogicLayer.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\LogicLayer.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataObjectLayer.pdb
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ILogicLayer.pdb
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\LogicLayer.pdb
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataAccessLayer.pdb
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\IDataAcessLayer.pdb
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.csproj.AssemblyReference.cache
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\main.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\viewAllUsers.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer_MarkupCompile.cache
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer_MarkupCompile.lref
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\main.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\viewAllUsers.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.baml
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.g.resources
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.AssemblyInfoInputs.cache
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.AssemblyInfo.cs
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPrese.5A559C1B.Up2Date
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\refint\WpfPresentationLayer.dll
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.pdb
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.genruntimeconfig.cache
+C:\Users\yoyoa\OneDrive\Desktop\final net project\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\ref\WpfPresentationLayer.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.exe
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.deps.json
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.runtimeconfig.json
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.pdb
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Azure.Core.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Azure.Identity.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.ClientModel.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.Memory.Data.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataAccessLayer.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataObjectLayer.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\IDataAcessLayer.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ILogicLayer.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\LogicLayer.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataObjectLayer.pdb
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ILogicLayer.pdb
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\LogicLayer.pdb
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataAccessLayer.pdb
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\IDataAcessLayer.pdb
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.csproj.AssemblyReference.cache
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\main.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\viewAllUsers.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\App.g.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer_MarkupCompile.cache
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer_MarkupCompile.lref
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.baml
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\main.baml
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.baml
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\viewAllUsers.baml
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.baml
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.baml
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.baml
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\MainWindow.baml
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.baml
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.baml
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.baml
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.g.resources
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.AssemblyInfoInputs.cache
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.AssemblyInfo.cs
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.csproj.CoreCompileInputs.cache
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPrese.5A559C1B.Up2Date
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\refint\WpfPresentationLayer.dll
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.pdb
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.genruntimeconfig.cache
+E:\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\ref\WpfPresentationLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.exe
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.deps.json
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.runtimeconfig.json
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\WpfPresentationLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataObjectLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\IDataAcessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ILogicLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\LogicLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataObjectLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\ILogicLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\LogicLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\DataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\bin\Debug\net8.0-windows\IDataAcessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.csproj.AssemblyReference.cache
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\main.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\viewAllUsers.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\App.g.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer_MarkupCompile.cache
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer_MarkupCompile.lref
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\addUser.baml
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\main.baml
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\updateEmployeeRole.baml
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Admin\viewAllUsers.baml
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\Main.baml
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\products.baml
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Leader\viewAllProducts.baml
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\addEmployee.baml
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\allEmployees.baml
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\Manager\Main.baml
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.g.resources
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.AssemblyInfoInputs.cache
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.AssemblyInfo.cs
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.csproj.CoreCompileInputs.cache
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPrese.5A559C1B.Up2Date
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\refint\WpfPresentationLayer.dll
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\WpfPresentationLayer.genruntimeconfig.cache
+D:\Awaab\Kirkwood\Tutor\Yousif\restaurant-main\restaurant-main\WpfPresentationLayer\obj\Debug\net8.0-windows\ref\WpfPresentationLayer.dll

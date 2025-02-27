@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VHirRF16lYo=",
+  "dgSpecHash": "0Y3Zumjl5WQ=",
   "success": true,
-  "projectFilePath": "D:\\Awaab\\Awaaab\\restaurant\\LogicLayer\\LogicLayer.csproj",
+  "projectFilePath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\LogicLayer\\LogicLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Samar\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Samar\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

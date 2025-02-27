@@ -10,18 +10,18 @@ namespace FakeDataAccessLayer
 {
     public class EmployeesAccessor : IEmployeesAccessor
     {
-        private List<Employee> employees;
+        private List<Employee> _users;
 
         public EmployeesAccessor()
         {
-            employees = new List<Employee>();
+            _users = new List<Employee>();
             Employee user = new Employee();
             user.EmployeeId = 1;
             user.FirstName = "a1";
             user.LastName = "b1";
             user.CellPhone = "c1";
             user.EmailAddress = "d1";
-            employees.Add(user);
+            _users.Add(user);
 
             user = new Employee();
             user.EmployeeId = 2;
@@ -29,7 +29,7 @@ namespace FakeDataAccessLayer
             user.LastName = "b2";
             user.CellPhone = "c2";
             user.EmailAddress = "d2";
-            employees.Add(user);
+            _users.Add(user);
 
             user = new Employee();
             user.EmployeeId = 3;
@@ -37,7 +37,7 @@ namespace FakeDataAccessLayer
             user.LastName = "b3";
             user.CellPhone = "c3";
             user.EmailAddress = "d3";
-            employees.Add(user);
+            _users.Add(user);
 
             user = new Employee();
             user.EmployeeId = 4;
@@ -45,7 +45,7 @@ namespace FakeDataAccessLayer
             user.LastName = "b4";
             user.CellPhone = "c4";
             user.EmailAddress = "d4";
-            employees.Add(user);
+            _users.Add(user);
 
             user = new Employee();
             user.EmployeeId = 5;
@@ -53,37 +53,24 @@ namespace FakeDataAccessLayer
             user.LastName = "b5";
             user.CellPhone = "c5";
             user.EmailAddress = "d5";
-            employees.Add(user);
+            _users.Add(user);
         }
 
         public bool inserNewEmployee(Employee user)
         {
-            int prevLength = employees.Count;
-            employees.Add(user);
-            return employees.Count - prevLength == 1;
+            int prevLength = _users.Count;
+            _users.Add(user);
+            return _users.Count - prevLength == 1;
         }
 
         public List<Employee> selectAllEmployees()
         {
-            return employees;
+            throw new NotImplementedException();
         }
 
         public bool updateEmployee(Employee employee)
         {
-            bool result = false;
-            foreach (Employee emp in employees) 
-            {
-                if (emp.EmployeeId == employee.EmployeeId)
-                {
-                    emp.FirstName = employee.FirstName;
-                    emp.LastName = employee.LastName;
-                    emp.CellPhone = employee.CellPhone;
-                    emp.EmailAddress = employee.EmailAddress;
-                    result = true;
-                    break;
-                }
-            }
-            return result;
+            throw new NotImplementedException();
         }
     }
 }

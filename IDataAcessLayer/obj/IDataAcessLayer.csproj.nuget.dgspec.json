@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Awaab\\Awaaab\\restaurant\\IDataAcessLayer\\IDataAcessLayer.csproj": {}
+    "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\IDataAcessLayer\\IDataAcessLayer.csproj": {}
   },
   "projects": {
-    "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj": {
+    "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\DataObjectLayer\\DataObjectLayer.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj",
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\DataObjectLayer\\DataObjectLayer.csproj",
         "projectName": "DataObjectLayer",
-        "projectPath": "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\DataObjectLayer\\DataObjectLayer.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
@@ -20,14 +20,14 @@
         "net472": {}
       }
     },
-    "D:\\Awaab\\Awaaab\\restaurant\\IDataAcessLayer\\IDataAcessLayer.csproj": {
+    "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\IDataAcessLayer\\IDataAcessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Awaab\\Awaaab\\restaurant\\IDataAcessLayer\\IDataAcessLayer.csproj",
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\IDataAcessLayer\\IDataAcessLayer.csproj",
         "projectName": "IDataAcessLayer",
-        "projectPath": "D:\\Awaab\\Awaaab\\restaurant\\IDataAcessLayer\\IDataAcessLayer.csproj",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\IDataAcessLayer\\IDataAcessLayer.csproj",
         "packagesPath": "C:\\Users\\Samar\\.nuget\\packages\\",
-        "outputPath": "D:\\Awaab\\Awaaab\\restaurant\\IDataAcessLayer\\obj\\",
+        "outputPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\IDataAcessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,8 +48,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj": {
-                "projectPath": "D:\\Awaab\\Awaaab\\restaurant\\DataObjectLayer\\DataObjectLayer.csproj"
+              "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\DataObjectLayer\\DataObjectLayer.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\DataObjectLayer\\DataObjectLayer.csproj"
               }
             }
           }
@@ -62,9 +62,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
