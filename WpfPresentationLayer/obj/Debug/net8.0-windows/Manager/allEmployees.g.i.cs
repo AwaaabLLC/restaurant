@@ -69,7 +69,7 @@ namespace WpfPresentationLayer.Manager {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfPresentationLayer;V1.0.0.0;component/manager/allemployees.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfPresentationLayer;component/manager/allemployees.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Manager\allEmployees.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

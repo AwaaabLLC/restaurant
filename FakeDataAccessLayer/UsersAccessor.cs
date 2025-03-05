@@ -40,7 +40,17 @@ namespace FakeDataAccessLayer
             throw new NotImplementedException();
         }
 
+        public User selectUserByID(int? id)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool updateEmployeeRole(int employeeId, string? roleId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool updateUser(User user)
         {
             throw new NotImplementedException();
         }

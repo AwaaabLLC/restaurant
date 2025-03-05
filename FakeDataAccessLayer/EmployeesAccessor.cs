@@ -56,6 +56,11 @@ namespace FakeDataAccessLayer
             _users.Add(user);
         }
 
+        public bool deleteEmployee(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool inserNewEmployee(Employee user)
         {
             int prevLength = _users.Count;
@@ -64,6 +69,11 @@ namespace FakeDataAccessLayer
         }
 
         public List<Employee> selectAllEmployees()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Employee selectEmployeeById(int? id)
         {
             throw new NotImplementedException();
         }

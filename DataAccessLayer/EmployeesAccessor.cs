@@ -12,6 +12,31 @@ namespace DataAccessLayer
 {
     public class EmployeesAccessor : IEmployeesAccessor
     {
+        public bool deleteEmployee(int id)
+        {
+            bool result = false;
+            SqlConnection conn = DBConnection.GetDBConnection();
+            SqlCommand cmd = new SqlCommand("sp_delete_employee_by_id", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@EmployeeId", id);
+            try
+            {
+                conn.Open();
+                result = cmd.ExecuteNonQuery() == 1;
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return result;
+        }
+
         public bool inserNewEmployee(Employee employee)
         {
             bool result = false;
@@ -73,6 +98,38 @@ namespace DataAccessLayer
             }
             finally { conn.Close(); }
             return employees;
+        }
+
+        public Employee selectEmployeeById(int? id)
+        {
+            Employee employee = new Employee();
+            SqlConnection conn = DBConnection.GetDBConnection();
+            SqlCommand cmd = new SqlCommand("sp_select_employee_by_id", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@EmployeeId", id);
+            try
+            {
+                conn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        employee.EmployeeId = reader.GetInt32(0);
+                        employee.FirstName = reader.GetString(1);
+                        employee.LastName = reader.GetString(2);
+                        employee.CellPhone = reader.GetString(3);
+                        employee.EmailAddress = reader.GetString(4);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally { conn.Close(); }
+            return employee;
         }
 
         public bool updateEmployee(Employee employee)

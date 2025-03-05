@@ -169,6 +169,37 @@ namespace DataAccessLayer
             return role;
         }
 
+        public User selectUserByID(int? id)
+        {
+            User user = new();
+            SqlConnection conn = DBConnection.GetDBConnection();
+            SqlCommand cmd = new SqlCommand("sp_select_user_by_id", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Id", id);
+            try
+            {
+                conn.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        user.EmployeeId = reader.GetInt32(0);
+                        user.EmailAddress = reader.GetString(1);
+                        user.Password = reader.GetString(2);
+                        user.Active = reader.GetBoolean(3);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally { conn.Close(); }
+            return user;
+        }
+
         public bool updateEmployeeRole(int employeeId, string? roleId)
         {
             bool result = false;
@@ -177,6 +208,30 @@ namespace DataAccessLayer
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@EmployeeId", employeeId);
             cmd.Parameters.AddWithValue("@RoleId", roleId);
+            try
+            {
+                conn.Open();
+                result = cmd.ExecuteNonQuery() == 1;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally { conn.Close(); }
+            return result;
+        }
+
+        public bool updateUser(User user)
+        {
+            bool result = false;
+            SqlConnection conn = DBConnection.GetDBConnection();
+            SqlCommand cmd = new SqlCommand("sp_update_user", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@EmployeeId", user.EmployeeId);
+            cmd.Parameters.AddWithValue("@EmailAddress", user.EmailAddress);
+            cmd.Parameters.AddWithValue("@Password", user.Password);
+            cmd.Parameters.AddWithValue("@Active", user.Active);
             try
             {
                 conn.Open();

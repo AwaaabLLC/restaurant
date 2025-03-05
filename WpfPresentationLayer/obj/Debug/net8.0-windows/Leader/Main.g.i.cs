@@ -77,7 +77,7 @@ namespace WpfPresentationLayer.Leader {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfPresentationLayer;V1.0.0.0;component/leader/main.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfPresentationLayer;component/leader/main.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Leader\Main.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

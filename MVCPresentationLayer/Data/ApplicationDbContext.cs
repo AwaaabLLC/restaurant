@@ -11,5 +11,9 @@ public class ApplicationDbContext : IdentityDbContext
     {
     }
 
+public DbSet<DataObjectLayer.Employee> Employee { get; set; } = default!;
+
+public DbSet<DataObjectLayer.EmployeeUser> EmployeeUser { get; set; } = default!;
+
 //public DbSet<DataObjectLayer.Product> Product { get; set; } = default!;
 }

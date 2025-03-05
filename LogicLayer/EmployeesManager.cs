@@ -39,6 +39,21 @@ namespace LogicLayer
             return result;
         }
 
+        public bool deleteEmployee(int id)
+        {
+            bool result = false;
+            try
+            {
+                result = employeesAccessor.deleteEmployee(id);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return result;
+        }
+
         public List<Employee> getAllEmployees()
         {
             List<Employee> employees = new List<Employee>();
@@ -52,6 +67,13 @@ namespace LogicLayer
                 throw;
             }
             return employees;
+        }
+
+        public Employee getEmployeeById(int? id)
+        {
+            Employee employee = new Employee();
+            employee = employeesAccessor.selectEmployeeById(id);
+            return employee;
         }
 
         public bool updateEmployee(Employee employee)

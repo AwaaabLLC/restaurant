@@ -32,6 +32,7 @@ CREATE TABLE [dbo].[Employee](
 [LastName] [nvarchar] (100) NOT NULL,
 [PhoneNumber] [nvarchar] (11) NOT NULL,
 [Email] [nvarchar] (255) ,
+[Active] [bit] NOT NULL DEFAULT 1,
 CONSTRAINT [pk_EmployeeID] PRIMARY KEY ([EmployeeID] ASC), 
 CONSTRAINT [ak_Email] UNIQUE ([Email] ASC)
 )
@@ -172,7 +173,9 @@ GO
 Create PROCEDURE [dbo].[sp_select_all_employees]
 AS
 	BEGIN
-		SELECT EmployeeID, FirstName, LastName, PhoneNumber, Email FROM employee;
+		SELECT EmployeeID, FirstName, LastName, PhoneNumber, Email 
+		FROM employee
+		WHERE Active = 1;
 	END
 GO
 
@@ -331,4 +334,48 @@ AS
 	END
 GO
 
+print '' print '*** Creating sp_select_employee_by_id'
+GO
+Create PROCEDURE [dbo].[sp_select_employee_by_id]
+(@EmployeeID INT)
+AS
+	BEGIN
+		SELECT EmployeeID, FirstName, LastName, PhoneNumber, Email 
+		FROM employee
+		WHERE EmployeeID = @EmployeeID
+		And Active = 1;
+	END
+GO
 
+Create PROCEDURE [dbo].[sp_delete_employee_by_id]
+(@EmployeeID INT)
+AS
+	BEGIN
+		UPDATE employee
+		SET	[Active] =0
+		WHERE	EmployeeID = @EmployeeID;
+
+	END
+GO
+print '' print '*** Creating sp_update_user'
+GO
+Create PROCEDURE [dbo].[sp_update_user]
+(@EmployeeId INT, @EmailAddress [nvarchar] (255), @Password [nvarchar] (100),@Active [bit])
+AS
+	BEGIN
+		UPDATE users
+		SET	Email = @EmailAddress, PasswordHash = @Password, Active = @Active
+		WHERE	EmployeeID = @EmployeeId;
+	END
+GO
+print '' print '*** Creating sp_select_user_by_id'
+GO
+Create PROCEDURE [dbo].[sp_select_user_by_id]
+(@Id INT)
+AS
+	BEGIN
+		SELECT	EmployeeID, Email, PasswordHash, Active
+		FROM 	users
+		WHERE	EmployeeID = @Id;
+	END
+GO

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E863BD2-CEC0-4A7C-84B9-A24D3743F5DF}|MVCPresentationLayer\\MVCPresentationLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurant-main\\restaurant-main\\mvcpresentationlayer\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E863BD2-CEC0-4A7C-84B9-A24D3743F5DF}|MVCPresentationLayer\\MVCPresentationLayer.csproj|solutionrelative:mvcpresentationlayer\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A05986E7-2D68-4F17-AC10-CBA8E919314D}|LogicLayer\\LogicLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurant-main\\restaurant-main\\logiclayer\\usersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A05986E7-2D68-4F17-AC10-CBA8E919314D}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\usersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurant-main\\restaurant-main\\dataaccesslayer\\productsaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\productsaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89152B74-9707-47B5-95E0-884467B3797A}|ILogicLayer\\ILogicLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurant-main\\restaurant-main\\ilogiclayer\\iusersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89152B74-9707-47B5-95E0-884467B3797A}|ILogicLayer\\ILogicLayer.csproj|solutionrelative:ilogiclayer\\iusersmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A05986E7-2D68-4F17-AC10-CBA8E919314D}|LogicLayer\\LogicLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurant-main\\restaurant-main\\logiclayer\\productsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A05986E7-2D68-4F17-AC10-CBA8E919314D}|LogicLayer\\LogicLayer.csproj|solutionrelative:logiclayer\\productsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E863BD2-CEC0-4A7C-84B9-A24D3743F5DF}|MVCPresentationLayer\\MVCPresentationLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurant-main\\restaurant-main\\mvcpresentationlayer\\controllers\\employeeuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E863BD2-CEC0-4A7C-84B9-A24D3743F5DF}|MVCPresentationLayer\\MVCPresentationLayer.csproj|solutionrelative:mvcpresentationlayer\\controllers\\employeeuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E863BD2-CEC0-4A7C-84B9-A24D3743F5DF}|MVCPresentationLayer\\MVCPresentationLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurant-main\\restaurant-main\\mvcpresentationlayer\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E863BD2-CEC0-4A7C-84B9-A24D3743F5DF}|MVCPresentationLayer\\MVCPresentationLayer.csproj|solutionrelative:mvcpresentationlayer\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|d:\\awaab\\kirkwood\\tutor\\yousif\\restaurant-main\\restaurant-main\\dataaccesslayer\\usersaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DF856B9-0013-4E36-BBD9-C576602D5B1B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\usersaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductsAccessor.cs",
-              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\DataAccessLayer\\ProductsAccessor.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\ProductsAccessor.cs",
-              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\DataAccessLayer\\ProductsAccessor.cs",
-              "RelativeToolTip": "DataAccessLayer\\ProductsAccessor.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAiwIoAAAAQAAAAAAAAAA==",
+              "Title": "IUsersManager.cs",
+              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\ILogicLayer\\IUsersManager.cs",
+              "RelativeDocumentMoniker": "ILogicLayer\\IUsersManager.cs",
+              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\ILogicLayer\\IUsersManager.cs",
+              "RelativeToolTip": "ILogicLayer\\IUsersManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA9wBQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:17:30.077Z",
+              "WhenOpened": "2025-03-05T14:19:37.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductsManager.cs",
-              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\LogicLayer\\ProductsManager.cs",
-              "RelativeDocumentMoniker": "LogicLayer\\ProductsManager.cs",
-              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\LogicLayer\\ProductsManager.cs",
-              "RelativeToolTip": "LogicLayer\\ProductsManager.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAvwC4AAAA7AAAAAAAAAA==",
+              "Title": "EmployeeUsersController.cs",
+              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\MVCPresentationLayer\\Controllers\\EmployeeUsersController.cs",
+              "RelativeDocumentMoniker": "MVCPresentationLayer\\Controllers\\EmployeeUsersController.cs",
+              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\MVCPresentationLayer\\Controllers\\EmployeeUsersController.cs",
+              "RelativeToolTip": "MVCPresentationLayer\\Controllers\\EmployeeUsersController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAcwIoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:15:25.598Z",
+              "WhenOpened": "2025-03-05T14:14:46.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\MVCPresentationLayer\\Views\\Products\\Edit.cshtml",
-              "RelativeDocumentMoniker": "MVCPresentationLayer\\Views\\Products\\Edit.cshtml",
-              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\MVCPresentationLayer\\Views\\Products\\Edit.cshtml",
-              "RelativeToolTip": "MVCPresentationLayer\\Views\\Products\\Edit.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-27T14:59:19.519Z",
+              "Title": "UsersAccessor.cs",
+              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\DataAccessLayer\\UsersAccessor.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\UsersAccessor.cs",
+              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\DataAccessLayer\\UsersAccessor.cs",
+              "RelativeToolTip": "DataAccessLayer\\UsersAccessor.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAwKsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T13:58:13.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\MVCPresentationLayer\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "MVCPresentationLayer\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\MVCPresentationLayer\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "MVCPresentationLayer\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAMwE4AAAAjAAAAAAAAAA==",
+              "Title": "UsersManager.cs",
+              "DocumentMoniker": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\LogicLayer\\UsersManager.cs",
+              "RelativeDocumentMoniker": "LogicLayer\\UsersManager.cs",
+              "ToolTip": "D:\\Awaab\\Kirkwood\\Tutor\\Yousif\\restaurant-main\\restaurant-main\\LogicLayer\\UsersManager.cs",
+              "RelativeToolTip": "LogicLayer\\UsersManager.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAA8wL8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T14:47:57.236Z",
+              "WhenOpened": "2025-03-05T13:57:20.522Z",
               "EditorCaption": ""
             }
           ]

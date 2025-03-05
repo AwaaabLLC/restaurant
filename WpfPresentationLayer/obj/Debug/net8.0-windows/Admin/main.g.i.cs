@@ -93,7 +93,7 @@ namespace WpfPresentationLayer.Admin {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfPresentationLayer;V1.0.0.0;component/admin/main.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfPresentationLayer;component/admin/main.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Admin\main.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

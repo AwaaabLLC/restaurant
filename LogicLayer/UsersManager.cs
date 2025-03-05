@@ -36,7 +36,20 @@ namespace LogicLayer
             }
             return users;
         }
-
+        public List<EmployeeUser> getAllEmployeesUsers()
+        {
+            List<EmployeeUser> empUsers = [];
+            List<User> users = getAllUsers();
+            foreach (User u in users)
+            {
+                EmployeeUser empUser = new();
+                empUser.Id = u.EmployeeId;
+                empUser.EmailAddress = u.EmailAddress;
+                empUser.Active = u.Active;
+                empUsers.Add(empUser);
+            }
+            return empUsers;
+        }
         public bool deactiveActiveUser(User user)
         {
             bool result = false;
@@ -125,6 +138,58 @@ namespace LogicLayer
                 throw;
             }
             return role;
+        }
+        User getUserById(int? id)
+        {
+            User user = new();
+            user = usersAccessor.selectUserByID(id);
+            return user;
+        }
+
+        User IUsersManager.getUserById(int? id)
+        {
+            return getUserById(id);
+        }
+
+        public bool addNewEmployeeUser(EmployeeUser employeeUser)
+        {
+            User user = new User();
+            user.EmployeeId = employeeUser.Id;
+            user.EmailAddress = employeeUser.EmailAddress;
+            user.Active = employeeUser.Active; 
+            bool result = addNewUser(user);
+            return result;
+        }
+
+        public bool updateEmployeeUser(EmployeeUser employeeUser)
+        {
+            bool result = false;
+            User user = new User();
+            user.EmployeeId = employeeUser.Id;
+            user.EmailAddress = employeeUser.EmailAddress;
+            user.Active = employeeUser.Active;
+            result = usersAccessor.updateUser(user);
+            return result;
+        }
+
+        public EmployeeUser getEmployeesUserById(int? id)
+        {
+            User user = getUserById(id);
+            EmployeeUser emp = new EmployeeUser();
+            emp.Id = user.EmployeeId;
+            emp.EmailAddress = user.EmailAddress;
+            emp.Active = user.Active;
+            return emp;
+        }
+
+        public bool deactiveActiveUser(EmployeeUser employeeUser)
+        {
+            User user = new User();
+            user.EmployeeId = employeeUser.Id;
+            user.EmailAddress = employeeUser.EmailAddress;
+            user.Active = employeeUser.Active;
+            bool result = deactiveActiveUser(user);
+            return result;
         }
     }
 }

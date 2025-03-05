@@ -14,6 +14,8 @@ namespace IDataAcessLayer
         List<string> selectAllRoles();
         List<User> selectAllUsers();
         string selectEmployeeRole(string username);
+        User selectUserByID(int? id);
         bool updateEmployeeRole(int employeeId, string? roleId);
+        bool updateUser(User user);
     }
 }

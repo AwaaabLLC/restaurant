@@ -149,7 +149,7 @@ namespace WpfPresentationLayer.Admin {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfPresentationLayer;V1.0.0.0;component/admin/adduser.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfPresentationLayer;component/admin/adduser.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Admin\addUser.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
